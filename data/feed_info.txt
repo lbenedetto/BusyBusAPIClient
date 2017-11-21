@@ -1,0 +1,2 @@
+feed_publisher_name,feed_publisher_url,feed_lang,feed_start_date,feed_end_date,feed_version
+Spokane Transit Authority,http://www.spokanetransit.com,en,20170917,20180120,SEPT 2017_20170809
