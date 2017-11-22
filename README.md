@@ -1,17 +1,20 @@
 # BusyBusAPIClient
 
-#To Do List
+## To Do List  
+
 Parse all available data in the following structures (enums and primitive types not listed):
 - [ ] FeedMessage
   - [ ] FeedHeader
   - [ ] FeedEntity
-    - [ ] TripUpdate
-      - [ ] TripDescriptor
-      - [ ] VehicleDescriptor
-    - [ ] VehiclePosition
-      - [ ] TripDescriptor
-      - [ ] VehicleDescriptor
-      - [ ] Position
+    - [x] TripUpdate
+      - [x] TripDescriptor
+      - [x] VehicleDescriptor
+      - [x] StopTimeUpdate
+        - [x] StopTimeEvent
+    - [x] VehiclePosition
+      - [x] TripDescriptor
+      - [x] VehicleDescriptor
+      - [x] Position
     - [ ] Alert
       - [ ] TimeRange
       - [ ] TranslatedString
