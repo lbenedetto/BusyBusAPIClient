@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16863713-8846-465b-98af-e5d9d806872a" name="Default" comment="Made signifi">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/agency.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/calendar.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/calendar_dates.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/fare_attributes.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/fare_rules.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/feed_info.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/routes.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/shapes.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/stop_times.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/stops.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/transfers.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/trips.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server.php" afterPath="$PROJECT_DIR$/gtfsr.php" />
+    <list default="true" id="16863713-8846-465b-98af-e5d9d806872a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gtfsr.php" afterPath="$PROJECT_DIR$/gtfsr.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,9 +20,11 @@
       <file leaf-file-name="gtfsr.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gtfsr.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-              <folding />
+            <state relative-caret-position="465">
+              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+              <folding>
+                <element signature="e#6#73#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,8 +32,8 @@
       <file leaf-file-name="urls.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UsefulFiles/urls.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="42" />
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -62,6 +52,11 @@
       <find>= \d;</find>
       <find>currentStatus</find>
       <find>class FeedEntity</find>
+      <find>TripUpdate</find>
+      <find>getStopTimeUpdateList</find>
+      <find>hasStopTimeUpdate</find>
+      <find>StopTimeUpdate</find>
+      <find>getArrival</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -94,9 +89,9 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1920" />
-    <option name="y" value="525" />
-    <option name="width" value="1920" />
-    <option name="height" value="527" />
+    <option name="y" value="-1" />
+    <option name="width" value="960" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -126,6 +121,11 @@
               <item name="BusyBusAPIClient" type="b2602c69:ProjectViewProjectNode" />
               <item name="BusyBusAPIClient" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="data" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="BusyBusAPIClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BusyBusAPIClient" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -175,15 +175,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511238442313</updated>
-      <workItem from="1511238443425" duration="13324000" />
+      <workItem from="1511238443425" duration="21284000" />
     </task>
+    <task id="LOCAL-00001" summary="Made signifigant progress on extracting data">
+      <created>1511302496370</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1511302496370</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Finished extracting all TripUpdate and VehiclePosition data.">
+      <created>1511320523045</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1511320523045</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13324000" />
+    <option name="totallyTimeSpent" value="21284000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="525" width="1920" height="1053" extended-state="6" />
+    <frame x="1920" y="-1" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -191,7 +206,7 @@
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -211,6 +226,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Made signifigant progress on extracting data" />
+    <MESSAGE value="Finished extracting all TripUpdate and VehiclePosition data." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished extracting all TripUpdate and VehiclePosition data." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -275,14 +295,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UsefulFiles/urls.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/alert.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -325,19 +337,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/google/gtfs-realtime-bindings/src/gtfs-realtime.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="1689" column="24" lean-forward="false" selection-start-line="1689" selection-start-column="24" selection-end-line="1689" selection-end-column="24" />
+        <state relative-caret-position="88">
+          <caret line="1298" column="20" lean-forward="true" selection-start-line="1298" selection-start-column="20" selection-end-line="1298" selection-end-column="20" />
           <folding>
             <element signature="e#7#607#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/UsefulFiles/urls.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gtfsr.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-          <folding />
+        <state relative-caret-position="465">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="e#6#73#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

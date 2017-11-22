@@ -13,19 +13,25 @@ $constants = loadConstants();
 $data = file_get_contents("http://205.143.55.253:8250/GTFS-RealTime/TrapezeRealTimeFeed.pb");
 $feedMessage = new FeedMessage();
 $feedMessage->parse($data);
-$allData = array();
-//The following code retrieves all data available from TrapezeRealTimeFeed.pb and encodes it in json
-$allData["header"] = getHeaderData($feedMessage);
-foreach ($feedMessage->getEntityList() as $feedEntity) {
-	/** @var \transit_realtime\FeedEntity $feedEntity */
-	$id = $feedEntity->getId();
-	$entityData["isDeleted"] = $feedEntity->getIsDeleted();
-	$entityData["tripUpdate"] = getTripUpdateData($feedEntity);
-	$entityData["vehiclePosition"] = getVehiclePositionData($feedEntity);
-
-	$allData["entities"][$id] = $entityData;
-}
+$allData = getAllData($feedMessage);
 echo json_encode($allData);
+
+//The following code retrieves all data available from TrapezeRealTimeFeed.pb and encodes it in json
+function getAllData($feedMessage) {
+	/** @var \transit_realtime\FeedMessage $feedMessage */
+	/** @var \transit_realtime\FeedEntity $feedEntity */
+	$allData = array();
+	$allData["header"] = getHeaderData($feedMessage);
+	foreach ($feedMessage->getEntityList() as $feedEntity) {
+		$id = $feedEntity->getId();
+		$entityData["isDeleted"] = $feedEntity->getIsDeleted();
+		$entityData["tripUpdate"] = getTripUpdateData($feedEntity);
+		$entityData["vehiclePosition"] = getVehiclePositionData($feedEntity);
+
+		$allData["entities"][$id] = $entityData;
+	}
+	return $allData;
+}
 
 function getHeaderData($feedMessage) {
 	/** @var \transit_realtime\FeedHeader $header */
