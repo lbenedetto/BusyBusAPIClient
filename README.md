@@ -5,13 +5,15 @@ Parse all available data in the following structures (enums and primitive types 
 - [ ] FeedMessage
   - [ ] FeedHeader
   - [ ] FeedEntity
-    - [ ] TripUpdate
-      - [ ] TripDescriptor
-      - [ ] VehicleDescriptor
-    - [ ] VehiclePosition
-      - [ ] TripDescriptor
-      - [ ] VehicleDescriptor
-      - [ ] Position
+    - [x] TripUpdate
+      - [x] TripDescriptor
+      - [x] VehicleDescriptor
+      - [x] StopTimeUpdate
+        - [x] StopTimeEvent
+    - [x] VehiclePosition
+      - [x] TripDescriptor
+      - [x] VehicleDescriptor
+      - [x] Position
     - [ ] Alert
       - [ ] TimeRange
       - [ ] TranslatedString
