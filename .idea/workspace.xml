@@ -2,340 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16863713-8846-465b-98af-e5d9d806872a" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/api/composer.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/api/composer.lock" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/composer.phar" afterPath="$PROJECT_DIR$/api/composer.phar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/agency.txt" afterPath="$PROJECT_DIR$/api/data/agency.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/calendar.txt" afterPath="$PROJECT_DIR$/api/data/calendar.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/calendar_dates.txt" afterPath="$PROJECT_DIR$/api/data/calendar_dates.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/fare_attributes.txt" afterPath="$PROJECT_DIR$/api/data/fare_attributes.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/fare_rules.txt" afterPath="$PROJECT_DIR$/api/data/fare_rules.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/feed_info.txt" afterPath="$PROJECT_DIR$/api/data/feed_info.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/routes.txt" afterPath="$PROJECT_DIR$/api/data/routes.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/shapes.txt" afterPath="$PROJECT_DIR$/api/data/shapes.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/stop_times.txt" afterPath="$PROJECT_DIR$/api/data/stop_times.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/stops.txt" afterPath="$PROJECT_DIR$/api/data/stops.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/transfers.txt" afterPath="$PROJECT_DIR$/api/data/transfers.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/trips.txt" afterPath="$PROJECT_DIR$/api/data/trips.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/gtfsr.php" afterPath="$PROJECT_DIR$/api/gtfsr.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/api/vendor/autoload.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/bin/protoc-gen-php.bat" afterPath="$PROJECT_DIR$/api/vendor/bin/protoc-gen-php.bat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/bin/protoc-gen-php.php" afterPath="$PROJECT_DIR$/api/vendor/bin/protoc-gen-php.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/.gitignore" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/LICENSE" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/LICENSE" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/README.md" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/Rakefile" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/Rakefile" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/composer.json" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/composer.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/ext/README.md" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/ext/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/ext/config.m4" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/ext/config.m4" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/ext/config.w32" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/ext/config.w32" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/ext/lwpb/AUTHORS" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/ext/lwpb/AUTHORS" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/ext/lwpb/COPYING" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/ext/lwpb/COPYING" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/ext/lwpb/arch.h" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/ext/lwpb/arch.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/ext/lwpb/arch/cc.h" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/ext/lwpb/arch/cc.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/ext/lwpb/arch/sys.h" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/ext/lwpb/arch/sys.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/ext/lwpb/buf.c" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/ext/lwpb/buf.c" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/ext/lwpb/decoder.c" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/ext/lwpb/decoder.c" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/ext/lwpb/decoder.h" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/ext/lwpb/decoder.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/ext/lwpb/encoder2.c" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/ext/lwpb/encoder2.c" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/ext/lwpb/encoder2.h" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/ext/lwpb/encoder2.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/ext/lwpb/lwpb.h" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/ext/lwpb/lwpb.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/ext/lwpb/private.h" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/ext/lwpb/private.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/ext/lwpb/types.h" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/ext/lwpb/types.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/ext/php_protobuf.c" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/ext/php_protobuf.c" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/ext/php_protobuf.h" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/ext/php_protobuf.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/ext/tests/001.phpt" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/ext/tests/001.phpt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/ext/tests/describe-message.phpt" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/ext/tests/describe-message.phpt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/ext/tests/describe-named-message.phpt" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/ext/tests/describe-named-message.phpt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/ext/tests/int-decoding.phpt" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/ext/tests/int-decoding.phpt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/AnnotatedMessage.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/AnnotatedMessage.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Codec/Binary.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Codec/Binary.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Codec/Binary/Extension.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Codec/Binary/Extension.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Codec/Binary/Native.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Codec/Binary/Native.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Codec/Binary/NativeReader.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Codec/Binary/NativeReader.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Codec/Binary/NativeWriter.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Codec/Binary/NativeWriter.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Codec/Binary/Unknown.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Codec/Binary/Unknown.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Codec/Json.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Codec/Json.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Codec/JsonIndexed.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Codec/JsonIndexed.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Codec/JsonTagMap.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Codec/JsonTagMap.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Codec/PhpArray.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Codec/PhpArray.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Codec/PhpArray/Unknown.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Codec/PhpArray/Unknown.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Codec/TextFormat.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Codec/TextFormat.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Codec/Xml.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Codec/Xml.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/CodecAbstract.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/CodecAbstract.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/CodecInterface.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/CodecInterface.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/AbstractGenerator.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/AbstractGenerator.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/Cli.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/Cli.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/Command/ProtocGenPhpCommand.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/Command/ProtocGenPhpCommand.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/CommentsParser.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/CommentsParser.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/JsonGenerator.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/JsonGenerator.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/PhpGenerator.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/PhpGenerator.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/TplGenerator.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/TplGenerator.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/protos/descriptor.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/protos/descriptor.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/protos/descriptor.proto" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/protos/descriptor.proto" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/protos/json.proto" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/protos/json.proto" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/protos/php.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/protos/php.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/protos/php.proto" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/protos/php.proto" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/protos/plugin.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/protos/plugin.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/protos/plugin.proto" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/protos/plugin.proto" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/templates/php-config.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/templates/php-config.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/templates/php-enum.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/templates/php-enum.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/templates/php-extension.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/templates/php-extension.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/templates/php-file.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/templates/php-file.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/templates/php-message.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/templates/php-message.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/templates/php-service.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Compiler/templates/php-service.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Descriptor.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Descriptor.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Enum.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Enum.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Exception.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Exception.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Field.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Field.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/LazyRepeat.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/LazyRepeat.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/LazyValue.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/LazyValue.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Message.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Message.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/MessageInterface.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/MessageInterface.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Protobuf.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Protobuf.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Registry.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Registry.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Unknown.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/library/DrSlump/Protobuf/Unknown.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/man/protobuf-php.3.ronn" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/man/protobuf-php.3.ronn" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/man/protobuf-php.5.ronn" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/man/protobuf-php.5.ronn" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/man/protoc-gen-php.1.ronn" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/man/protoc-gen-php.1.ronn" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/package.pear" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/package.pear" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/phpunit.xml" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/phpunit.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/protoc-gen-php.bat" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/protoc-gen-php.bat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/protoc-gen-php.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/protoc-gen-php.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/benchmark.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/benchmark.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/bootstrap.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/bootstrap.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/Codec/BinaryTest.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/Codec/BinaryTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/Protobuf.Codec.JsonIndexedTest.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/Protobuf.Codec.JsonIndexedTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/Protobuf.Codec.JsonTagMapTest.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/Protobuf.Codec.JsonTagMapTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/Protobuf.Codec.JsonTest.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/Protobuf.Codec.JsonTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/Protobuf.Codec.TextFormatTest.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/Protobuf.Codec.TextFormatTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/Protobuf.Codec.XmlTest.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/Protobuf.Codec.XmlTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/Protobuf.EnumTest.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/Protobuf.EnumTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/ProtobufTest.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/ProtobufTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/Annotated/Addressbook.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/Annotated/Addressbook.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/Annotated/Repeated.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/Annotated/Repeated.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/Annotated/Simple.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/Annotated/Simple.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/addressbook.bin" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/addressbook.bin" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/addressbook.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/addressbook.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/addressbook.proto" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/addressbook.proto" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/addressbook.txt" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/addressbook.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/complex.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/complex.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/complex.proto" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/complex.proto" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/descriptor.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/descriptor.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/extension.bin" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/extension.bin" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/extension.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/extension.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/extension.proto" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/extension.proto" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/php.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/php.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/repeated-int32.bin" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/repeated-int32.bin" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/repeated-int32.txt" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/repeated-int32.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/repeated-nested.bin" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/repeated-nested.bin" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/repeated-nested.txt" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/repeated-nested.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/repeated-string.bin" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/repeated-string.bin" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/repeated-string.txt" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/repeated-string.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/repeated.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/repeated.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/repeated.proto" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/repeated.proto" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/simple.bin" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/simple.bin" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/simple.php" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/simple.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/simple.proto" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/simple.proto" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/simple.txt" afterPath="$PROJECT_DIR$/api/vendor/centraldesktop/protobuf-php/test/library/DrSlump/Protobuf/Test/protos/simple.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterPath="$PROJECT_DIR$/api/vendor/composer/ClassLoader.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" afterPath="$PROJECT_DIR$/api/vendor/composer/LICENSE" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/api/vendor/composer/autoload_classmap.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/api/vendor/composer/autoload_namespaces.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/api/vendor/composer/autoload_psr4.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/api/vendor/composer/autoload_real.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/api/vendor/composer/autoload_static.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/api/vendor/composer/installed.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/google/gtfs-realtime-bindings/.gitignore" afterPath="$PROJECT_DIR$/api/vendor/google/gtfs-realtime-bindings/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/google/gtfs-realtime-bindings/LICENSE" afterPath="$PROJECT_DIR$/api/vendor/google/gtfs-realtime-bindings/LICENSE" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/google/gtfs-realtime-bindings/README.md" afterPath="$PROJECT_DIR$/api/vendor/google/gtfs-realtime-bindings/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/google/gtfs-realtime-bindings/UPDATING.md" afterPath="$PROJECT_DIR$/api/vendor/google/gtfs-realtime-bindings/UPDATING.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/google/gtfs-realtime-bindings/composer.json" afterPath="$PROJECT_DIR$/api/vendor/google/gtfs-realtime-bindings/composer.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/google/gtfs-realtime-bindings/phpunit.xml.dist" afterPath="$PROJECT_DIR$/api/vendor/google/gtfs-realtime-bindings/phpunit.xml.dist" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/google/gtfs-realtime-bindings/src/gtfs-realtime.php" afterPath="$PROJECT_DIR$/api/vendor/google/gtfs-realtime-bindings/src/gtfs-realtime.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/google/gtfs-realtime-bindings/tests/GtfsRealtimeTest.php" afterPath="$PROJECT_DIR$/api/vendor/google/gtfs-realtime-bindings/tests/GtfsRealtimeTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/google/gtfs-realtime-bindings/tests/vehicle_position.pb" afterPath="$PROJECT_DIR$/api/vendor/google/gtfs-realtime-bindings/tests/vehicle_position.pb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/.gitignore" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Application.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Application.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/CHANGELOG.md" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/CHANGELOG.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Command/Command.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Command/Command.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Command/HelpCommand.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Command/HelpCommand.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Command/ListCommand.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Command/ListCommand.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/ConsoleEvents.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/ConsoleEvents.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Descriptor/ApplicationDescription.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Descriptor/ApplicationDescription.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Descriptor/Descriptor.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Descriptor/Descriptor.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Descriptor/DescriptorInterface.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Descriptor/DescriptorInterface.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Descriptor/JsonDescriptor.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Descriptor/JsonDescriptor.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Descriptor/MarkdownDescriptor.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Descriptor/MarkdownDescriptor.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Descriptor/TextDescriptor.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Descriptor/TextDescriptor.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Descriptor/XmlDescriptor.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Descriptor/XmlDescriptor.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Event/ConsoleCommandEvent.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Event/ConsoleCommandEvent.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Event/ConsoleEvent.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Event/ConsoleEvent.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Event/ConsoleExceptionEvent.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Event/ConsoleExceptionEvent.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Event/ConsoleTerminateEvent.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Event/ConsoleTerminateEvent.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Formatter/OutputFormatter.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Formatter/OutputFormatter.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Formatter/OutputFormatterInterface.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Formatter/OutputFormatterInterface.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Formatter/OutputFormatterStyle.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Formatter/OutputFormatterStyle.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Formatter/OutputFormatterStyleInterface.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Formatter/OutputFormatterStyleInterface.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Formatter/OutputFormatterStyleStack.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Formatter/OutputFormatterStyleStack.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Helper/DescriptorHelper.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Helper/DescriptorHelper.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Helper/DialogHelper.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Helper/DialogHelper.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Helper/FormatterHelper.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Helper/FormatterHelper.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Helper/Helper.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Helper/Helper.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Helper/HelperInterface.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Helper/HelperInterface.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Helper/HelperSet.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Helper/HelperSet.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Helper/ProgressHelper.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Helper/ProgressHelper.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Helper/TableHelper.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Helper/TableHelper.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Input/ArgvInput.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Input/ArgvInput.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Input/ArrayInput.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Input/ArrayInput.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Input/Input.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Input/Input.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Input/InputArgument.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Input/InputArgument.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Input/InputDefinition.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Input/InputDefinition.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Input/InputInterface.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Input/InputInterface.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Input/InputOption.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Input/InputOption.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Input/StringInput.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Input/StringInput.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/LICENSE" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/LICENSE" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Output/ConsoleOutput.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Output/ConsoleOutput.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Output/ConsoleOutputInterface.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Output/ConsoleOutputInterface.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Output/NullOutput.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Output/NullOutput.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Output/Output.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Output/Output.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Output/OutputInterface.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Output/OutputInterface.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Output/StreamOutput.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Output/StreamOutput.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/README.md" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Resources/bin/hiddeninput.exe" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Resources/bin/hiddeninput.exe" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Shell.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Shell.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tester/ApplicationTester.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tester/ApplicationTester.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tester/CommandTester.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tester/CommandTester.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/ApplicationTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/ApplicationTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Command/CommandTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Command/CommandTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Command/HelpCommandTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Command/HelpCommandTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Command/ListCommandTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Command/ListCommandTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Descriptor/AbstractDescriptorTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Descriptor/AbstractDescriptorTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Descriptor/JsonDescriptorTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Descriptor/JsonDescriptorTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Descriptor/MarkdownDescriptorTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Descriptor/MarkdownDescriptorTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Descriptor/ObjectsProvider.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Descriptor/ObjectsProvider.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Descriptor/TextDescriptorTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Descriptor/TextDescriptorTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Descriptor/XmlDescriptorTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Descriptor/XmlDescriptorTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/DescriptorApplication1.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/DescriptorApplication1.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/DescriptorApplication2.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/DescriptorApplication2.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/DescriptorCommand1.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/DescriptorCommand1.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/DescriptorCommand2.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/DescriptorCommand2.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/Foo1Command.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/Foo1Command.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/Foo2Command.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/Foo2Command.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/Foo3Command.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/Foo3Command.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/Foo4Command.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/Foo4Command.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/Foo6Command.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/Foo6Command.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/FooCommand.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/FooCommand.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/FooSubnamespaced1Command.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/FooSubnamespaced1Command.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/FooSubnamespaced2Command.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/FooSubnamespaced2Command.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/TestCommand.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/TestCommand.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_1.json" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_1.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_1.md" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_1.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_1.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_1.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_1.xml" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_2.json" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_2.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_2.md" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_2.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_2.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_2.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_2.xml" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_2.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_astext1.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_astext1.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_astext2.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_astext2.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_asxml1.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_asxml1.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_asxml2.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_asxml2.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_gethelp.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_gethelp.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_renderexception1.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_renderexception1.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_renderexception2.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_renderexception2.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_renderexception3.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_renderexception3.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_renderexception3decorated.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_renderexception3decorated.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_renderexception4.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_renderexception4.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_renderexception_doublewidth1.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_renderexception_doublewidth1.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_renderexception_doublewidth1decorated.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_renderexception_doublewidth1decorated.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_renderexception_doublewidth2.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_renderexception_doublewidth2.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_run1.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_run1.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_run2.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_run2.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_run3.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_run3.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_run4.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_run4.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/command_1.json" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/command_1.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/command_1.md" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/command_1.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/command_1.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/command_1.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/command_1.xml" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/command_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/command_2.json" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/command_2.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/command_2.md" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/command_2.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/command_2.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/command_2.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/command_2.xml" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/command_2.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/command_astext.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/command_astext.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/command_asxml.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/command_asxml.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/definition_astext.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/definition_astext.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/definition_asxml.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/definition_asxml.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_argument_1.json" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_argument_1.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_argument_1.md" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_argument_1.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_argument_1.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_argument_1.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_argument_1.xml" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_argument_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_argument_2.json" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_argument_2.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_argument_2.md" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_argument_2.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_argument_2.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_argument_2.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_argument_2.xml" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_argument_2.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_argument_3.json" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_argument_3.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_argument_3.md" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_argument_3.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_argument_3.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_argument_3.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_argument_3.xml" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_argument_3.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_definition_1.json" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_definition_1.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_definition_1.md" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_definition_1.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_definition_1.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_definition_1.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_definition_1.xml" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_definition_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_definition_2.json" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_definition_2.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_definition_2.md" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_definition_2.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_definition_2.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_definition_2.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_definition_2.xml" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_definition_2.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_definition_3.json" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_definition_3.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_definition_3.md" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_definition_3.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_definition_3.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_definition_3.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_definition_3.xml" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_definition_3.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_definition_4.json" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_definition_4.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_definition_4.md" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_definition_4.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_definition_4.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_definition_4.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_definition_4.xml" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_definition_4.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_option_1.json" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_option_1.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_option_1.md" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_option_1.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_option_1.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_option_1.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_option_1.xml" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_option_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_option_2.json" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_option_2.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_option_2.md" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_option_2.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_option_2.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_option_2.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_option_2.xml" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_option_2.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_option_3.json" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_option_3.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_option_3.md" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_option_3.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_option_3.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_option_3.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_option_3.xml" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_option_3.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_option_4.json" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_option_4.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_option_4.md" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_option_4.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_option_4.txt" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_option_4.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_option_4.xml" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/input_option_4.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Formatter/OutputFormatterStyleStackTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Formatter/OutputFormatterStyleStackTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Formatter/OutputFormatterStyleTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Formatter/OutputFormatterStyleTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Formatter/OutputFormatterTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Formatter/OutputFormatterTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Helper/DialogHelperTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Helper/DialogHelperTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Helper/FormatterHelperTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Helper/FormatterHelperTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Helper/HelperSetTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Helper/HelperSetTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Helper/ProgressHelperTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Helper/ProgressHelperTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Helper/TableHelperTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Helper/TableHelperTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Input/ArgvInputTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Input/ArgvInputTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Input/ArrayInputTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Input/ArrayInputTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Input/InputArgumentTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Input/InputArgumentTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Input/InputDefinitionTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Input/InputDefinitionTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Input/InputOptionTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Input/InputOptionTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Input/InputTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Input/InputTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Input/StringInputTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Input/StringInputTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Output/ConsoleOutputTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Output/ConsoleOutputTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Output/NullOutputTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Output/NullOutputTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Output/OutputTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Output/OutputTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Output/StreamOutputTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Output/StreamOutputTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Tester/ApplicationTesterTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Tester/ApplicationTesterTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Tester/CommandTesterTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/Tests/Tester/CommandTesterTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/composer.json" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/composer.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/phpunit.xml.dist" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Symfony/Component/Console/phpunit.xml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/data/routes.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/data/shapes.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/data/stops.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/data/trips.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/v1/location/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/v1/locations/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/v1/routes/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/v1/sharedMethods.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UsefulFiles/Alerts.pb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UsefulFiles/TrapezeRealTimeFeed.pb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UsefulFiles/TripUpdates.pb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UsefulFiles/VehiclePositions.pb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UsefulFiles/onebusaway-quickstart-assembly-1.1.16-webapp.war" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/data/routes.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/data/stops.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/data/trips.txt" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/UsefulFiles/urls.txt" afterPath="$PROJECT_DIR$/api/data/urls.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/BusyBusAPIClient.iml" afterPath="$PROJECT_DIR$/.idea/BusyBusAPIClient.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/data/shapes.txt" afterPath="$PROJECT_DIR$/api/data/shapes.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -347,29 +38,117 @@
   <component name="ComposerSettings" executionDataType="PHAR" phpInterpreterId="69aed168-7a48-4603-8022-42e989e61d4f">
     <pharPath>$PROJECT_DIR$/composer.phar</pharPath>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="sta@localhost" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="sta@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="sta" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="sta@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="sta" type="e3449647:DbNodeDescriptor" />
+        <item name="shapes" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gtfsr.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gtfsr.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/gtfsr.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="61" column="1" lean-forward="true" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+            <state relative-caret-position="0">
+              <caret line="103" column="31" lean-forward="false" selection-start-line="103" selection-start-column="31" selection-end-line="103" selection-end-column="31" />
+              <folding>
+                <element signature="e#6#73#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="javascript.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javascript.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UsefulFiles/urls.txt">
+      <file leaf-file-name="trips.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/data/trips.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="63" />
+            <state relative-caret-position="150">
+              <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stop_times.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/data/stop_times.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sharedMethods.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/v1/sharedMethods.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="69" lean-forward="false" selection-start-line="32" selection-start-column="69" selection-end-line="32" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/v1/location/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/v1/routes/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -387,6 +166,8 @@
       <find>hasStopTimeUpdate</find>
       <find>StopTimeUpdate</find>
       <find>getArrival</find>
+      <find>constants</find>
+      <find>timestamp</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -404,7 +185,23 @@
         <option value="$PROJECT_DIR$/vendor/google/gtfs-realtime-bindings/src/gtfs-realtime.php" />
         <option value="$PROJECT_DIR$/Contstants.php" />
         <option value="$PROJECT_DIR$/gtfsr.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/index.html.css" />
         <option value="$PROJECT_DIR$/api/gtfsr.php" />
+        <option value="$PROJECT_DIR$/api/index.php" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/api/v1/routes.php" />
+        <option value="$PROJECT_DIR$/api/v1/routes/routes.php" />
+        <option value="$PROJECT_DIR$/api/vendor/autoload.php" />
+        <option value="$PROJECT_DIR$/api/vendor/composer/autoload_real.php" />
+        <option value="$PROJECT_DIR$/api/v1/locations/index.php" />
+        <option value="$PROJECT_DIR$/api/v1/location/index.php" />
+        <option value="$PROJECT_DIR$/api/v1/sharedMethods.php" />
+        <option value="$PROJECT_DIR$/api/v1/routes/index.php" />
+        <option value="$PROJECT_DIR$/javascript.js" />
+        <option value="$PROJECT_DIR$/api/data/shapes.txt" />
+        <option value="$PROJECT_DIR$/api/data/shapes.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/501855a9-68aa-4359-8017-ca1983c982b7/console.sql" />
       </list>
     </option>
   </component>
@@ -422,7 +219,7 @@
     <option name="x" value="2880" />
     <option name="y" value="-1" />
     <option name="width" value="960" />
-    <option name="height" value="1053" />
+    <option name="height" value="526" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -440,6 +237,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -452,21 +251,29 @@
               <item name="BusyBusAPIClient" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="BusyBusAPIClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/v1/routes" />
+      <recent name="$PROJECT_DIR$/api/data" />
+      <recent name="$PROJECT_DIR$/api/v1/locations" />
       <recent name="$PROJECT_DIR$/api" />
       <recent name="$PROJECT_DIR$/UsefulFiles" />
     </key>
@@ -483,11 +290,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.gtfsr.php">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="gtfsr.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BusyBusAPIClient/gtfsr.php" />
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/BusyBusAPIClient/index.html" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.gtfsr.php" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.gtfsr.php" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.gtfsr.php" />
       </list>
     </recent_temporary>
   </component>
@@ -506,7 +319,8 @@
       <updated>1511238442313</updated>
       <workItem from="1511238443425" duration="21382000" />
       <workItem from="1511998669806" duration="346000" />
-      <workItem from="1511999057799" duration="1873000" />
+      <workItem from="1511999057799" duration="16701000" />
+      <workItem from="1512016166555" duration="1044000" />
     </task>
     <task id="LOCAL-00001" summary="Made signifigant progress on extracting data">
       <created>1511302496370</created>
@@ -529,34 +343,41 @@
       <option name="project" value="LOCAL" />
       <updated>1511320734159</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Moved api stuff into its own folder">
+      <created>1512001075661</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1512001075661</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23601000" />
+    <option name="totallyTimeSpent" value="39473000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="-1" width="1920" height="1053" extended-state="6" />
+    <frame x="2880" y="-1" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16808964" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.50213444" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297414" sideWeight="0.49786553" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1696905" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.50213444" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.49786553" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -570,36 +391,93 @@
     <MESSAGE value="Made signifigant progress on extracting data" />
     <MESSAGE value="Finished extracting all TripUpdate and VehiclePosition data." />
     <MESSAGE value="Move getAllData into its own method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Move getAllData into its own method" />
+    <MESSAGE value="Moved api stuff into its own folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved api stuff into its own folder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/501855a9-68aa-4359-8017-ca1983c982b7/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1408095">
+          <caret line="93873" column="0" lean-forward="true" selection-start-line="93873" selection-start-column="0" selection-end-line="93873" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/data/trips.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/data/stop_times.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/v1/sharedMethods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="69" lean-forward="false" selection-start-line="32" selection-start-column="69" selection-end-line="32" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/v1/location/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/v1/routes/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/data/shapes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="93873" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api/gtfsr.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#6#73#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UsefulFiles/urls.txt">
+    <entry file="file://$PROJECT_DIR$/api/data/urls.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UsefulFiles/urls.txt">
+    <entry file="file://$PROJECT_DIR$/api/data/urls.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -607,7 +485,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#6#73#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -615,7 +495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1632">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -625,14 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/vendor/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -643,21 +514,44 @@
     <entry file="file://$PROJECT_DIR$/Ruby/gtfsr.ruby" />
     <entry file="file://$PROJECT_DIR$/Vehicle.php" />
     <entry file="file://$PROJECT_DIR$/Contstants.php" />
-    <entry file="file://$PROJECT_DIR$/api/vendor/google/gtfs-realtime-bindings/src/gtfs-realtime.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="1298" column="20" lean-forward="true" selection-start-line="1298" selection-start-column="20" selection-end-line="1298" selection-end-column="20" />
-          <folding>
-            <element signature="e#7#607#0#PHP" expanded="false" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="345">
+            <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UsefulFiles/urls.txt">
+    <entry file="file://$PROJECT_DIR$/index.html.css" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="63" />
+        <state relative-caret-position="300">
+          <caret line="2049" column="0" lean-forward="false" selection-start-line="2049" selection-start-column="0" selection-end-line="2049" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/vendor/google/gtfs-realtime-bindings/src/gtfs-realtime.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="1607" column="24" lean-forward="false" selection-start-line="1607" selection-start-column="24" selection-end-line="1607" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.floo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -665,25 +559,171 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/api/data/urls.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/gtfsr.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="61" column="1" lean-forward="true" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="103" column="31" lean-forward="false" selection-start-line="103" selection-start-column="31" selection-end-line="103" selection-end-column="31" />
+          <folding>
+            <element signature="e#6#73#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/data/agency.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/data/calendar.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/data/calendar_dates.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/data/fare_attributes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/data/fare_rules.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/data/feed_info.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/vendor/composer/autoload_real.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="65" lean-forward="false" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/v1/locations/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/data/stops.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12585">
+          <caret line="4" column="100" lean-forward="false" selection-start-line="4" selection-start-column="80" selection-end-line="4" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/data/routes.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="3" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/v1/routes/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/v1/location/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/v1/sharedMethods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="69" lean-forward="false" selection-start-line="32" selection-start-column="69" selection-end-line="32" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/data/stop_times.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/data/trips.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/data/shapes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="41" column="30" lean-forward="false" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/data/shapes.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="93821" column="60" lean-forward="false" selection-start-line="93821" selection-start-column="60" selection-end-line="93821" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/501855a9-68aa-4359-8017-ca1983c982b7/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="93838" column="54" lean-forward="false" selection-start-line="93838" selection-start-column="54" selection-end-line="93838" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding />
         </state>
       </provider>

@@ -21,3 +21,4 @@ Parse all available data in the following structures (enums and primitive types 
         - [ ] Translation
       - [ ] EntitySelector
         - [ ] TripDescriptor
+        

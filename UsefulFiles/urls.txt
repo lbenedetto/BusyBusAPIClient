@@ -1,4 +1,0 @@
-http://205.143.55.253:8250/Vehicle/VehiclePositions.pb
-http://205.143.55.253:8250/TripUpdate/TripUpdates.pb
-http://205.143.55.253:8250/Alert/Alerts.pb
-http://205.143.55.253:8250/GTFS-RealTime/TrapezeRealTimeFeed.pb
