@@ -2,31 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16863713-8846-465b-98af-e5d9d806872a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/data/routes.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/data/shapes.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/data/stops.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/data/trips.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/v1/location/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/v1/locations/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/v1/routes/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/v1/sharedMethods.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/UsefulFiles/Alerts.pb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/UsefulFiles/TrapezeRealTimeFeed.pb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/UsefulFiles/TripUpdates.pb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/UsefulFiles/VehiclePositions.pb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/UsefulFiles/onebusaway-quickstart-assembly-1.1.16-webapp.war" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/data/routes.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/data/stops.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/data/trips.txt" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/UsefulFiles/urls.txt" afterPath="$PROJECT_DIR$/api/data/urls.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/BusyBusAPIClient.iml" afterPath="$PROJECT_DIR$/.idea/BusyBusAPIClient.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/sql/SQLFileSplitterUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/sql/shapes/shapes.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/sql/shapes/shapes0.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/sql/shapes/shapes1.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/sql/shapes/shapes2.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/sql/shapes/shapes3.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/sql/shapes/shapes4.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/sql/shapes/shapes5.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/sql/shapes/shapes6.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/sql/shapes/shapes7.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/sql/shapes/shapes8.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/sql/shapes/shapes9.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/sql/stops/stop_times.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/sql/stops/stops0.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/sql/stops/stops1.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/sql/stops/stops10.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/sql/stops/stops11.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/sql/stops/stops12.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/sql/stops/stops13.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/sql/stops/stops14.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/sql/stops/stops15.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/sql/stops/stops2.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/sql/stops/stops3.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/sql/stops/stops4.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/sql/stops/stops5.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/sql/stops/stops6.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/sql/stops/stops7.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/sql/stops/stops8.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/sql/stops/stops9.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/sql/tables.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/sql/trips.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/sql/trips.sql" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/data/shapes.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/data/shapes/shapes.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/data/stop_times.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/data/shapes.txt" afterPath="$PROJECT_DIR$/api/data/shapes.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,84 +73,23 @@
         <item name="sta" type="e3449647:DbNodeDescriptor" />
         <item name="shapes" type="e3449647:DbNodeDescriptor" />
       </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="sta@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="sta" type="e3449647:DbNodeDescriptor" />
+        <item name="stops" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="sta@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="sta" type="e3449647:DbNodeDescriptor" />
+        <item name="trips" type="e3449647:DbNodeDescriptor" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gtfsr.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/gtfsr.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="103" column="31" lean-forward="false" selection-start-line="103" selection-start-column="31" selection-end-line="103" selection-end-column="31" />
-              <folding>
-                <element signature="e#6#73#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="javascript.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/javascript.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="trips.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/data/trips.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stop_times.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/data/stop_times.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sharedMethods.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/v1/sharedMethods.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="69" lean-forward="false" selection-start-line="32" selection-start-column="69" selection-end-line="32" selection-end-column="69" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/v1/location/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/v1/routes/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -168,7 +118,11 @@
       <find>getArrival</find>
       <find>constants</find>
       <find>timestamp</find>
+      <find>$</find>
     </findStrings>
+    <replaceStrings>
+      <replace>;</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -201,7 +155,12 @@
         <option value="$PROJECT_DIR$/javascript.js" />
         <option value="$PROJECT_DIR$/api/data/shapes.txt" />
         <option value="$PROJECT_DIR$/api/data/shapes.sql" />
+        <option value="$PROJECT_DIR$/api/data/stop_times.txt" />
+        <option value="$PROJECT_DIR$/api/data/shapes/shapes0.sql" />
+        <option value="$PROJECT_DIR$/api/data/tables.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/501855a9-68aa-4359-8017-ca1983c982b7/console.sql" />
+        <option value="$PROJECT_DIR$/api/sql/tables.sql" />
+        <option value="$PROJECT_DIR$/api/sql/shapes/shapes9.sql" />
       </list>
     </option>
   </component>
@@ -253,6 +212,18 @@
             </path>
             <path>
               <item name="BusyBusAPIClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BusyBusAPIClient" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="data" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="BusyBusAPIClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BusyBusAPIClient" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sql" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="BusyBusAPIClient" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
             </path>
           </expand>
@@ -270,12 +241,16 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/sql" />
+      <recent name="$PROJECT_DIR$/api/data/shapes" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/data/stops" />
+      <recent name="$PROJECT_DIR$/api/data/shapes" />
       <recent name="$PROJECT_DIR$/api/v1/routes" />
       <recent name="$PROJECT_DIR$/api/data" />
       <recent name="$PROJECT_DIR$/api/v1/locations" />
-      <recent name="$PROJECT_DIR$/api" />
-      <recent name="$PROJECT_DIR$/UsefulFiles" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -290,17 +265,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
     <configuration name="gtfsr.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BusyBusAPIClient/gtfsr.php" />
+    <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BusyBusAPIClient/index.html" />
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/BusyBusAPIClient/index.html" />
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.gtfsr.php" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.gtfsr.php" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.gtfsr.php" />
       </list>
     </recent_temporary>
   </component>
@@ -320,7 +298,9 @@
       <workItem from="1511238443425" duration="21382000" />
       <workItem from="1511998669806" duration="346000" />
       <workItem from="1511999057799" duration="16701000" />
-      <workItem from="1512016166555" duration="1044000" />
+      <workItem from="1512016166555" duration="4119000" />
+      <workItem from="1512020509490" duration="53000" />
+      <workItem from="1512021065283" duration="2699000" />
     </task>
     <task id="LOCAL-00001" summary="Made signifigant progress on extracting data">
       <created>1511302496370</created>
@@ -350,28 +330,35 @@
       <option name="project" value="LOCAL" />
       <updated>1512001075661</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Major strides forward, thanks Alex and Fletcher!">
+      <created>1512017260220</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1512017260220</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39473000" />
+    <option name="totallyTimeSpent" value="45300000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2880" y="-1" width="1920" height="1053" extended-state="6" />
-    <editor active="true" />
+    <frame x="1920" y="-1" width="1920" height="1053" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1696905" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.50213444" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.49786553" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17289221" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -392,7 +379,8 @@
     <MESSAGE value="Finished extracting all TripUpdate and VehiclePosition data." />
     <MESSAGE value="Move getAllData into its own method" />
     <MESSAGE value="Moved api stuff into its own folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved api stuff into its own folder" />
+    <MESSAGE value="Major strides forward, thanks Alex and Fletcher!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Major strides forward, thanks Alex and Fletcher!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -401,103 +389,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/501855a9-68aa-4359-8017-ca1983c982b7/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1408095">
-          <caret line="93873" column="0" lean-forward="true" selection-start-line="93873" selection-start-column="0" selection-end-line="93873" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/data/trips.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/data/stop_times.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/v1/sharedMethods.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="69" lean-forward="false" selection-start-line="32" selection-start-column="69" selection-end-line="32" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/v1/location/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/v1/routes/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/data/shapes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="93873" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/gtfsr.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#73#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/data/urls.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/data/urls.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/gtfsr.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#73#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/composer.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1632">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="phar://$PROJECT_DIR$/composer.phar/src/bootstrap.php" />
     <entry file="phar://$PROJECT_DIR$/composer.phar/vendor/autoload.php" />
     <entry file="file://$PROJECT_DIR$/api/composer.json">
@@ -536,7 +427,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="1607" column="24" lean-forward="false" selection-start-line="1607" selection-start-column="24" selection-end-line="1607" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -544,7 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -574,7 +463,7 @@
         <state relative-caret-position="0">
           <caret line="103" column="31" lean-forward="false" selection-start-line="103" selection-start-column="31" selection-end-line="103" selection-end-column="31" />
           <folding>
-            <element signature="e#6#73#0#PHP" expanded="true" />
+            <element signature="e#6#73#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -660,7 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -668,7 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -676,54 +563,104 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="69" lean-forward="false" selection-start-line="32" selection-start-column="69" selection-end-line="32" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/data/shapes.sql" />
+    <entry file="das://table:/4b1cbec/501855a9-68aa-4359-8017-ca1983c982b7/sta.shapes">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/data/shapes/shapes.txt" />
+    <entry file="file://$PROJECT_DIR$/javascript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/data/shapes/trips.sql" />
+    <entry file="file://$PROJECT_DIR$/api/data/shapes/shapes0.sql" />
+    <entry file="file://$PROJECT_DIR$/api/data/stops/stop_times.txt" />
+    <entry file="file://$PROJECT_DIR$/api/data/tables.sql" />
+    <entry file="file://$PROJECT_DIR$/api/sql/trips.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/data/stop_times.txt">
+    <entry file="file://$PROJECT_DIR$/api/sql/stops/stops0.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/4b1cbec/501855a9-68aa-4359-8017-ca1983c982b7/sta.trips">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/501855a9-68aa-4359-8017-ca1983c982b7/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/sql/shapes/shapes0.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="68" lean-forward="false" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/sql/shapes/shapes9.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="3746" column="22" lean-forward="false" selection-start-line="3746" selection-start-column="22" selection-end-line="3746" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/sql/tables.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="2" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/sql/shapes/shapes8.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="9900" column="87" lean-forward="true" selection-start-line="9900" selection-start-column="87" selection-end-line="9900" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/sql/trips.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/data/trips.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/data/shapes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="41" column="30" lean-forward="false" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/data/shapes.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="93821" column="60" lean-forward="false" selection-start-line="93821" selection-start-column="60" selection-end-line="93821" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/501855a9-68aa-4359-8017-ca1983c982b7/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="93838" column="54" lean-forward="false" selection-start-line="93838" selection-start-column="54" selection-end-line="93838" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="315">
+          <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
           <folding />
         </state>
       </provider>
