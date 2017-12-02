@@ -61,23 +61,35 @@ function getShapeByTripId($tripId) {
 	$stmt->execute([$tripId]);
 	$shapeIDs = $stmt->fetchAll();
 	$shapeID = $shapeIDs[0]["shape_id"];
-	$query = "SELECT * FROM shapes WHERE shape_id = ?";
+	$query = "SELECT sequence, latitude, longitude FROM shapes WHERE shape_id = ?";
 	$stmt = $pdo->prepare($query);
 	$stmt->execute([$shapeID]);
 	$results = $stmt->fetchAll();
 
-	return encodeResults($results);
+	return encodeResult($results);
+}
+
+function encodeResult($results){
+	$out = array();
+	for ($i = 0; $i < count($results); $i++) {
+		$sequence = intval($results[$i]["sequence"]);
+		$latitude = $results[$i]["latitude"];
+		$longitude = $results[$i]["longitude"];
+		$out[$sequence]["lat"] = $latitude;
+		$out[$sequence]["lng"] = $longitude;
+	}
+	return $out;
 }
 
 function encodeResults($results){
 	$out = array();
 	for ($i = 0; $i < count($results); $i++) {
 		$shapeId = $results[$i]["shape_id"];
-		$sequence = $results[$i]["sequence"];
+		$sequence = intval($results[$i]["sequence"]);
 		$latitude = $results[$i]["latitude"];
 		$longitude = $results[$i]["longitude"];
-		$out[$shapeId][$sequence]["latitude"] = $latitude;
-		$out[$shapeId][$sequence]["longitude"] = $longitude;
+		$out[$shapeId][$sequence]["lat"] = $latitude;
+		$out[$shapeId][$sequence]["lng"] = $longitude;
 	}
 	return $out;
 }

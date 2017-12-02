@@ -2,5 +2,5 @@
 include "../SQL.php";
 
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
-	echo json_encode(getAllShapes());
+	echo json_encode(getAllShapes(), JSON_NUMERIC_CHECK);
 }

@@ -1,16 +1,21 @@
-var map, latitude, longitude, markers = [];
+var map, latitude, longitude, markers = [], currentTripId;
 
+// if (location.protocol !== 'https:') {
+// 	location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+// }
 //Update bus locations every 5 seconds
-getBuses();
 setInterval(getBuses, 10000);
 
 function getBuses() {
 	console.log("update");
 	$.get("./api/v1/locations/", function callback(response) {
-		console.log(response);
 		deleteMarkers();
 		$(jQuery.parseJSON(response)).each(function showBus() {
-			drawMarker(this["position"]["latitude"], this["position"]["longitude"], 'https://maps.google.com/mapfiles/kml/shapes/bus.png')
+			drawMarker(this["position"]["latitude"],
+				this["position"]["longitude"],
+				'https://maps.google.com/mapfiles/kml/shapes/bus.png',
+				this["trip"]["tripId"],
+				this["trip"]["routeId"])
 		});
 	});
 }
@@ -26,7 +31,7 @@ The backend can return a shape when given a tripID
 
 A shape is
  */
-function drawMarker(latitude, longitude, iconURL){
+function drawMarker(latitude, longitude, iconURL, tripId, routeId){
     var size = 20;
 	var latLng = new google.maps.LatLng(latitude, longitude);
 	var marker = new google.maps.Marker({
@@ -34,10 +39,29 @@ function drawMarker(latitude, longitude, iconURL){
 		icon: {
             url: iconURL,
             scaledSize: new google.maps.Size(size, size)
-                },
-		map: map
+		},
+		map: map,
+		tripId: tripId,
+		routeId: routeId
 	});
 	markers.push(marker);
+	google.maps.event.addListener(marker, 'click', function(){
+		currentTripId = this.tripId;
+		$.get("./api/v1/routes/byTripId/?id="+currentTripId, function callback(response){
+			var shapeJSON = JSON.parse(response);
+			var shape = $.map(shapeJSON, function(el) { return el; });
+			console.log(shape);
+			var flightPath = new google.maps.Polyline({
+				path: shape,
+				geodesic: true,
+				strokeColor: '#2d4ec6',
+				strokeOpacity: 1.0,
+				strokeWeight: 2
+			});
+
+			flightPath.setMap(map);
+		});
+	});
 }
 
 function getBus(route) {
@@ -60,15 +84,14 @@ function deleteMarkers() {
 }
 
 function getLocation() {
+	getBuses();
 	if (navigator.geolocation) {
 		navigator.geolocation.getCurrentPosition(
 			function setPosition(position) {
 				latitude = position.coords.latitude;
 				longitude = position.coords.longitude;
-				if (position.coords.accuracy > 50) {
-					//TODO: Show an indicator on the page that location is highly inaccurate
-					//(This is most likely only a problem on desktop PC's connected to LAN
-
+                if (position.coords.accuracy > 50) {
+                    document.getElementById("LowAcc").innerHTML = "GPS Accuracy: " + position.coords.accuracy + "m";
 				}
 				showMap();
 			},

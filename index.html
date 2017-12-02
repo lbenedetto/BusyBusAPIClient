@@ -7,6 +7,30 @@
 		#map {
 			height: 100%;
 		}
+		/* The alert message box */
+		.alert {
+			padding: 20px;
+			background-color: #f44336; /* Red */
+			color: white;
+			margin-bottom: 15px;
+		}
+
+		/* The close button */
+		.closebtn {
+			margin-left: 15px;
+			color: white;
+			font-weight: bold;
+			float: right;
+			font-size: 22px;
+			line-height: 20px;
+			cursor: pointer;
+			transition: 0.3s;
+		}
+
+		/* When moving the mouse over the close button */
+		.closebtn:hover {
+			color: black;
+		}
 
 		/* Optional: Makes the sample page fill the window. */
 		html, body {
@@ -16,11 +40,21 @@
 		}
 	</style>
 </head>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
-<div id="map"></div>
+<div class="w3-sidebar w3-bar-block" style="width:150px">
+	<a href="#" class="w3-bar-item w3-button">Link 1</a>
+	<a href="#" class="w3-bar-item w3-button">Link 2</a>
+	<a href="#" class="w3-bar-item w3-button">Link 3</a>
+	<div id="LowAcc" style="position: absolute; bottom: 15px;font-size: 10px;"> </div>
+	<div id="Refresh" style="position: absolute; bottom: 0;font-size: 10px;"></div>
+
+</div>
+<div id="map" style="margin-left:150px"></div>
 <script>
 	var map;
-
+	//You were following this right?
+	//https://www.w3schools.com/howto/howto_js_countdown.asp
 	function initMap() {
 		getLocation();
 	}
@@ -37,11 +71,18 @@
             map: map
         });
 	}
-</script>
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAviW_2PbA3jfQv-2ONR35L0v6jlos9F3Q&callback=initMap">
+        var timeleft = 11;
+        var downloadTimer = setInterval(function () {
+            timeleft--;
+            document.getElementById("Refresh").innerHTML = "Refresh in " + timeleft + " sec";
+            if (timeleft <= 0) {
+                timeleft = 11;
+                setInterval(downloadTimer)
+            }
+        }, 1000);
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="javascript.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAviW_2PbA3jfQv-2ONR35L0v6jlos9F3Q&callback=initMap"></script>
 </body>
 </html>
