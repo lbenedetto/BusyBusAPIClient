@@ -68,6 +68,7 @@ function getLocation() {
 				if (position.coords.accuracy > 50) {
 					//TODO: Show an indicator on the page that location is highly inaccurate
 					//(This is most likely only a problem on desktop PC's connected to LAN
+
 				}
 				showMap();
 			},

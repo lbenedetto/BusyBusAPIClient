@@ -7,8 +7,7 @@ ini_set('display_errors', 'On');
 $host = "localhost";
 $db = "u800402696_busyb";
 $user = "u800402696_group";
-$pass = "Group3";
-//$pass = file_get_contents( __DIR__ .'/pw.txt');
+$pass = file_get_contents( __DIR__ .'/pw.txt');
 $charset = "utf8mb4";
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
@@ -38,33 +37,36 @@ function getAllShapes() {
 
 function getShapeByRoute($route) {
 	global $pdo;
+
+	$stmt = $pdo->prepare("SELECT DISTINCT shape_id FROM trips WHERE route_id = ?");
+	$stmt->execute([$route]);
+	$results = $stmt->fetchAll();
+	$shapeIDs = array();
+	for ($i = 0; $i < count($results); $i++) {
+		$shapeIDs[$i] = $results[$i]["shape_id"];
+	}
+	$in  = str_repeat('?,', count($shapeIDs) - 1) . '?';
+	$query = "SELECT * FROM shapes WHERE shape_id IN ($in)";
+	$stmt = $pdo->prepare($query);
+	$stmt->execute($shapeIDs);
+	$results = $stmt->fetchAll();
+
+	return encodeResults($results);
 }
 
 function getShapeByTripId($tripId) {
 	global $pdo;
 
-	$stmt = $pdo->prepare("SELECT DISTINCT shape_id FROM trips WHERE trip_id = ?");
+	$stmt = $pdo->prepare("SELECT shape_id FROM trips WHERE trip_id = ?");
 	$stmt->execute([$tripId]);
 	$shapeIDs = $stmt->fetchAll();
+	$shapeID = $shapeIDs[0]["shape_id"];
+	$query = "SELECT * FROM shapes WHERE shape_id = ?";
+	$stmt = $pdo->prepare($query);
+	$stmt->execute([$shapeID]);
+	$results = $stmt->fetchAll();
 
-	//https://stackoverflow.com/questions/920353/can-i-bind-an-array-to-an-in-condition
-	$params = array_combine(
-		array_map(
-		// construct param name according to array index
-			function ($v) {return ":name_{$v}";},
-			// get values of users
-			array_keys($shapeIDs)
-		),
-		$shapeIDs
-	);
-	echo $params;
-	echo implode(",", array_keys($params));
-//	$query = "SELECT * FROM shapes WHERE shape_id IN ( " . implode(",", array_keys($params)) . " )";
-//	$stmt = $pdo->prepare($query);
-//	$stmt->execute($params);
-//	$results = $stmt->fetchAll();
-
-	return encodeResults($params);
+	return encodeResults($results);
 }
 
 function encodeResults($results){

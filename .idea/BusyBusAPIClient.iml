@@ -4,6 +4,8 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="earthquake_GeoJSONP" level="application" />
+    <orderEntry type="library" name="jquery" level="application" />
     <orderEntry type="module-library">
       <library name="PHARS">
         <CLASSES>
@@ -14,7 +16,5 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="library" name="earthquake_GeoJSONP" level="application" />
-    <orderEntry type="library" name="jquery" level="application" />
   </component>
 </module>
