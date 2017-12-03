@@ -1,43 +1,46 @@
 var map, latitude, longitude, markers = [], currentTripId;
 
+//TODO: Uncomment this before deploying
 // if (location.protocol !== 'https:') {
 // 	location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
 // }
-//Update bus locations every 5 seconds
-setInterval(getBuses, 10000);
+//Update bus locations every 10 seconds
+var timeleft = 10;
+var downloadTimer = setInterval(function () {
+	timeleft--;
+	document.getElementById("Refresh").innerHTML = "Refresh in " + timeleft + " sec";
+	if (timeleft <= 0) {
+		timeleft = 10;
+		getBuses();
+		setInterval(downloadTimer);
+	}
+}, 1000);
 
 function getBuses() {
 	console.log("update");
-	$.get("./api/v1/locations/", function callback(response) {
-		deleteMarkers();
-		$(jQuery.parseJSON(response)).each(function showBus() {
-			drawMarker(this["position"]["latitude"],
-				this["position"]["longitude"],
-				'https://maps.google.com/mapfiles/kml/shapes/bus.png',
-				this["trip"]["tripId"],
-				this["trip"]["routeId"])
-		});
-	});
+	var routes = getSelectedRoutes();
+	$.get("./api/v1/locations/",
+		{"routes[]": routes},
+		function callback(response) {
+			deleteMarkers();
+			$(jQuery.parseJSON(response)).each(function showBus() {
+				drawMarker(this["position"]["latitude"],
+					this["position"]["longitude"],
+					this["position"]["bearing"],
+					this["trip"]["tripId"],
+					this["trip"]["routeId"])
+			});
+		}
+	);
 }
-/*
-Initially, all buses and routes are drawn
-"" -> Backend -> "Every Shape"
-Then, the user filters it down to only, say, Route 66
-The backend can return a list of all the shapes to draw for that route
-"?route=66" -> Backend -> "Couple of Shapes"
-Then, a user should be able to click on a bus marker, and filter to only showing that tripID
-"?tripID=23280" -> Backend -> "One Shape"
-The backend can return a shape when given a tripID
 
-A shape is
- */
-function drawMarker(latitude, longitude, iconURL, tripId, routeId){
+function drawMarker(latitude, longitude, bearing, tripId, routeId){
     var size = 20;
 	var latLng = new google.maps.LatLng(latitude, longitude);
 	var marker = new google.maps.Marker({
 		position: latLng,
 		icon: {
-            url: iconURL,
+            url: "./icons/" + routeId + ".png",
             scaledSize: new google.maps.Size(size, size)
 		},
 		map: map,
@@ -56,25 +59,12 @@ function drawMarker(latitude, longitude, iconURL, tripId, routeId){
 				geodesic: true,
 				strokeColor: '#2d4ec6',
 				strokeOpacity: 1.0,
-				strokeWeight: 2
+				strokeWeight: 3
 			});
-
 			flightPath.setMap(map);
 		});
 	});
 }
-
-function getBus(route) {
-	console.log("update");
-	$.get("./api/v1/location/?route=" + route, function callback(response) {
-		console.log(response);
-		deleteMarkers();
-		$(jQuery.parseJSON(response)).each(function showBus() {
-			drawMarker(this["position"]["latitude"], this["position"]["longitude"], 'https://maps.google.com/mapfiles/kml/shapes/bus.png');
-		});
-	});
-}
-
 
 function deleteMarkers() {
 	for (var i = 0; i < markers.length; i++) {

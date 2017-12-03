@@ -7,7 +7,8 @@ use transit_realtime\FeedMessage;
 
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 	$feedMessage = getFeedMessage();
-	$allData = getAllPositions($feedMessage);
+	$routes = $_REQUEST["routes"];
+	$allData = getPositions($feedMessage);
 	echo json_encode($allData);
 }
 
