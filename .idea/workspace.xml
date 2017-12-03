@@ -2,90 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16863713-8846-465b-98af-e5d9d806872a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/124unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/165unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/172unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/173unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/1unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/20unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/21unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/22unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/23unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/24unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/25unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/26unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/27unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/28unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/29unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/2unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/32unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/33unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/34unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/39unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/42unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/43unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/44unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/45unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/60unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/61unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/62unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/66unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/68unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/74unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/90unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/94unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/95unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/96unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/97unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/98unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.floo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.flooignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/1.png" afterPath="$PROJECT_DIR$/icons/1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/124.png" afterPath="$PROJECT_DIR$/icons/124.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/165.png" afterPath="$PROJECT_DIR$/icons/165.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/172.png" afterPath="$PROJECT_DIR$/icons/172.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/173.png" afterPath="$PROJECT_DIR$/icons/173.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/2.png" afterPath="$PROJECT_DIR$/icons/2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/20.png" afterPath="$PROJECT_DIR$/icons/20.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/21.png" afterPath="$PROJECT_DIR$/icons/21.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/22.png" afterPath="$PROJECT_DIR$/icons/22.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/23.png" afterPath="$PROJECT_DIR$/icons/23.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/24.png" afterPath="$PROJECT_DIR$/icons/24.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/25.png" afterPath="$PROJECT_DIR$/icons/25.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/26.png" afterPath="$PROJECT_DIR$/icons/26.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/27.png" afterPath="$PROJECT_DIR$/icons/27.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/28.png" afterPath="$PROJECT_DIR$/icons/28.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/29.png" afterPath="$PROJECT_DIR$/icons/29.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/32.png" afterPath="$PROJECT_DIR$/icons/32.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/33.png" afterPath="$PROJECT_DIR$/icons/33.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/34.png" afterPath="$PROJECT_DIR$/icons/34.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/39.png" afterPath="$PROJECT_DIR$/icons/39.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/42.png" afterPath="$PROJECT_DIR$/icons/42.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/43.png" afterPath="$PROJECT_DIR$/icons/43.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/44.png" afterPath="$PROJECT_DIR$/icons/44.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/45.png" afterPath="$PROJECT_DIR$/icons/45.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/60.png" afterPath="$PROJECT_DIR$/icons/60.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/61.png" afterPath="$PROJECT_DIR$/icons/61.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/62.png" afterPath="$PROJECT_DIR$/icons/62.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/66.png" afterPath="$PROJECT_DIR$/icons/66.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/68.png" afterPath="$PROJECT_DIR$/icons/68.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/74.png" afterPath="$PROJECT_DIR$/icons/74.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/90.png" afterPath="$PROJECT_DIR$/icons/90.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/94.png" afterPath="$PROJECT_DIR$/icons/94.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/95.png" afterPath="$PROJECT_DIR$/icons/95.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/96.png" afterPath="$PROJECT_DIR$/icons/96.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/97.png" afterPath="$PROJECT_DIR$/icons/97.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/98.png" afterPath="$PROJECT_DIR$/icons/98.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/direction0.png" afterPath="$PROJECT_DIR$/icons/direction0.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/direction135.png" afterPath="$PROJECT_DIR$/icons/direction135.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/direction180.png" afterPath="$PROJECT_DIR$/icons/direction180.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/direction225.png" afterPath="$PROJECT_DIR$/icons/direction225.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/direction270.png" afterPath="$PROJECT_DIR$/icons/direction270.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/direction315.png" afterPath="$PROJECT_DIR$/icons/direction315.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/direction45.png" afterPath="$PROJECT_DIR$/icons/direction45.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/direction90.png" afterPath="$PROJECT_DIR$/icons/direction90.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/IconGenerator.java" afterPath="$PROJECT_DIR$/api/IconGenerator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/CoreLogic.js" afterPath="$PROJECT_DIR$/js/CoreLogic.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/UI.js" afterPath="$PROJECT_DIR$/js/UI.js" />
@@ -141,21 +58,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CoreLogic.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CoreLogic.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/CoreLogic.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="44" lean-forward="true" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+            <state relative-caret-position="292">
+              <caret line="59" column="9" lean-forward="false" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UI.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UI.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/UI.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+            <state relative-caret-position="480">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -164,15 +81,16 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="72" column="53" lean-forward="false" selection-start-line="72" selection-start-column="53" selection-end-line="72" selection-end-column="53" />
+            <state relative-caret-position="743">
+              <caret line="82" column="93" lean-forward="true" selection-start-line="82" selection-start-column="93" selection-end-line="82" selection-end-column="93" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#form#0;n#li#1;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#3;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#4;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#4160#6155#0" expanded="false" />
+                <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#4145#6140#0" expanded="false" />
+                <marker date="1512281683609" expanded="true" signature="3736:3877" ph="..." />
               </folding>
             </state>
           </provider>
@@ -226,6 +144,7 @@
       <find>BusSelector</find>
       <find>route</find>
       <find>#9f9f9f</find>
+      <find>getSele</find>
     </findStrings>
     <replaceStrings>
       <replace>;</replace>
@@ -282,9 +201,9 @@
         <option value="$PROJECT_DIR$/sass/components/_waves.scss" />
         <option value="$PROJECT_DIR$/api/main.java" />
         <option value="$PROJECT_DIR$/api/IconGenerator.java" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/CoreLogic.js" />
         <option value="$PROJECT_DIR$/js/UI.js" />
-        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -331,11 +250,6 @@
             <path>
               <item name="BusyBusAPIClient" type="b2602c69:ProjectViewProjectNode" />
               <item name="BusyBusAPIClient" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="BusyBusAPIClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BusyBusAPIClient" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="icons" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="BusyBusAPIClient" type="b2602c69:ProjectViewProjectNode" />
@@ -428,7 +342,7 @@
       <workItem from="1512016166555" duration="4119000" />
       <workItem from="1512020509490" duration="53000" />
       <workItem from="1512021065283" duration="8211000" />
-      <workItem from="1512189103476" duration="38923000" />
+      <workItem from="1512189103476" duration="42000000" />
     </task>
     <task id="LOCAL-00001" summary="Made signifigant progress on extracting data">
       <created>1511302496370</created>
@@ -514,11 +428,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512273166784</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="This is really coming together">
+      <created>1512279208637</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1512279208637</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89735000" />
+    <option name="totallyTimeSpent" value="92812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2880" y="-1" width="1920" height="1053" extended-state="6" />
@@ -567,7 +488,8 @@
     <MESSAGE value="Added sidebar, thanks Alex" />
     <MESSAGE value="Sidebar is cool" />
     <MESSAGE value="Changed map to dark mode&#10;Updated icons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed map to dark mode&#10;Updated icons" />
+    <MESSAGE value="This is really coming together" />
+    <option name="LAST_COMMIT_MESSAGE" value="This is really coming together" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -904,21 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="72" column="53" lean-forward="false" selection-start-line="72" selection-start-column="53" selection-end-line="72" selection-end-column="53" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#form#0;n#li#1;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#3;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#4;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#4160#6155#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/icons/direction90.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -934,18 +841,34 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/UI.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="743">
+          <caret line="82" column="93" lean-forward="true" selection-start-line="82" selection-start-column="93" selection-end-line="82" selection-end-column="93" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#form#0;n#li#1;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#4145#6140#0" expanded="false" />
+            <marker date="1512281683609" expanded="true" signature="3736:3877" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/CoreLogic.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="44" lean-forward="true" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+        <state relative-caret-position="292">
+          <caret line="59" column="9" lean-forward="false" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/UI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
