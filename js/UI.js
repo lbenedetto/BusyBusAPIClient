@@ -1,4 +1,7 @@
+var modified;
+
 $(".button-collapse").sideNav();
+//$(".filled-in").click(modified = true);
 
 
 function invertSelection(){
@@ -8,7 +11,7 @@ function invertSelection(){
 }
 
 function getSelectedRoutes(){
-	var out;
+	var out = [];
 	var i = 0;
 	$(".filled-in").each(function (index){
 		if(this.checked){

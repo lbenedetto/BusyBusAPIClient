@@ -8,18 +8,23 @@ use transit_realtime\FeedMessage;
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 	$feedMessage = getFeedMessage();
 	$routes = $_REQUEST["routes"];
-	$allData = getPositions($feedMessage);
+	if($routes == null){
+		$routes = array($_REQUEST["route"]);
+	}
+	$allData = getPositions($feedMessage, $routes);
 	echo json_encode($allData);
 }
 
-function getAllPositions($feedMessage) {
+function getPositions($feedMessage, $routes) {
 	/** @var \transit_realtime\FeedMessage $feedMessage */
 	/** @var \transit_realtime\FeedEntity $feedEntity */
 	$allData = array();
 	$i = 0;
 	foreach ($feedMessage->getEntityList() as $feedEntity) {
 		if ($feedEntity->hasVehicle()) {
-			$allData[$i++] = getVehiclePositionData($feedEntity);
+			$data = getVehiclePositionData($feedEntity);
+			if (in_array($data["trip"]["routeId"], $routes))
+				$allData[$i++] = $data;
 		}
 	}
 	return $allData;

@@ -5,17 +5,7 @@
 		/* Always set the map height explicitly to define the size of the div
 		 * element that contains the map. */
 		#map {
-			height: 100%;
-		}
-
-		.w3-sidebar {
-			width: 150px;
-			margin: 10px;
-		}
-
-		.column {
-			float: left;
-			width: 50%;
+			height: calc(100% - 35px);
 		}
 
 		/* When moving the mouse over the close button */
@@ -41,7 +31,6 @@
 <ul id="slide-out" class="side-nav">
 	<li><a class="waves-effect waves-light btn" id="invertSelectionBtn" onclick="invertSelection()">Invert Selection</a></li>
 	<li><form action="#">
-		<!--TODO: Fix padding between columns-->
 		<div class="center-align" style="margin-left: 0;">
 			<div id="col1" style="display:inline-block;">
 				<p><input type="checkbox" class="filled-in" id="1" checked="checked" /><label for="1">1</label></p>
@@ -92,6 +81,7 @@
 			</div>
 		</div>
 	</form></li>
+	<li><a class="waves-effect waves-light btn" id="applyBtn" onclick="getBuses()" disabled="true">Apply</a></li>
 	<li id="LowAcc" class="center-align" style="font-size: 10px;"></li>
 	<li id="Refresh" class="center-align" style="font-size: 10px;"></li>
 </ul>
@@ -100,24 +90,97 @@
 <div id="map"></div>
 <script>
 	var map;
-	//You were following this right?
-	//https://www.w3schools.com/howto/howto_js_countdown.asp
 	function initMap() {
-		getLocation();
+		getLocation(function showMap() {
+			var latlong = new google.maps.LatLng(latitude, longitude);
+			map = new google.maps.Map(document.getElementById('map'), {
+				zoom: 16,
+				center: latlong,
+				styles: [
+					{elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+					{elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+					{elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+					{
+						featureType: 'administrative.locality',
+						elementType: 'labels.text.fill',
+						stylers: [{color: '#d59563'}]
+					},
+					{
+						featureType: 'poi',
+						elementType: 'labels.text.fill',
+						stylers: [{color: '#d59563'}]
+					},
+					{
+						featureType: 'poi.park',
+						elementType: 'geometry',
+						stylers: [{color: '#263c3f'}]
+					},
+					{
+						featureType: 'poi.park',
+						elementType: 'labels.text.fill',
+						stylers: [{color: '#6b9a76'}]
+					},
+					{
+						featureType: 'road',
+						elementType: 'geometry',
+						stylers: [{color: '#38414e'}]
+					},
+					{
+						featureType: 'road',
+						elementType: 'geometry.stroke',
+						stylers: [{color: '#212a37'}]
+					},
+					{
+						featureType: 'road',
+						elementType: 'labels.text.fill',
+						stylers: [{color: '#9ca5b3'}]
+					},
+					{
+						featureType: 'road.highway',
+						elementType: 'geometry',
+						stylers: [{color: '#746855'}]
+					},
+					{
+						featureType: 'road.highway',
+						elementType: 'geometry.stroke',
+						stylers: [{color: '#1f2835'}]
+					},
+					{
+						featureType: 'road.highway',
+						elementType: 'labels.text.fill',
+						stylers: [{color: '#f3d19c'}]
+					},
+					{
+						featureType: 'transit',
+						elementType: 'geometry',
+						stylers: [{color: '#2f3948'}]
+					},
+					{
+						featureType: 'transit.station',
+						elementType: 'labels.text.fill',
+						stylers: [{color: '#d59563'}]
+					},
+					{
+						featureType: 'water',
+						elementType: 'geometry',
+						stylers: [{color: '#17263c'}]
+					},
+					{
+						featureType: 'water',
+						elementType: 'labels.text.fill',
+						stylers: [{color: '#515c6d'}]
+					},
+					{
+						featureType: 'water',
+						elementType: 'labels.text.stroke',
+						stylers: [{color: '#17263c'}]
+					}
+				]
+			});
+		});
 	}
 
-	function showMap() {
-		var latlong = new google.maps.LatLng(latitude, longitude);
-		map = new google.maps.Map(document.getElementById('map'), {
-			zoom: 16,
-			center: latlong,
-			mapTypeId: 'terrain'
-		});
-		var marker = new google.maps.Marker({
-			position: latlong,
-			map: map
-		});
-	}
+
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/materialize.js"></script>
