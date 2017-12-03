@@ -7,25 +7,10 @@
 		#map {
 			height: 100%;
 		}
-		/* The alert message box */
-		.alert {
-			padding: 20px;
-			background-color: #f44336; /* Red */
-			color: white;
-			margin-bottom: 15px;
-		}
-
-		/* The close button */
-		.closebtn {
-			margin-left: 15px;
-			color: white;
-			font-weight: bold;
-			float: right;
-			font-size: 22px;
-			line-height: 20px;
-			cursor: pointer;
-			transition: 0.3s;
-		}
+        .column {
+            float: left;
+            width: 50%;
+        }
 
 		/* When moving the mouse over the close button */
 		.closebtn:hover {
@@ -43,11 +28,82 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
 <div class="w3-sidebar w3-bar-block" style="width:150px">
-	<a href="#" class="w3-bar-item w3-button">Link 1</a>
-	<a href="#" class="w3-bar-item w3-button">Link 2</a>
-	<a href="#" class="w3-bar-item w3-button">Link 3</a>
-	<div id="LowAcc" style="position: absolute; bottom: 15px;font-size: 10px;"> </div>
-	<div id="Refresh" style="position: absolute; bottom: 0;font-size: 10px;"></div>
+	<form>
+
+            <div><label><input type="checkbox" name="Route1" value="1">Route 1</label></div>
+            <div><label><input type="checkbox" name="Route1" value="2">Route 2</label></div>
+
+
+            <div><label><input type="checkbox" name="Route20" value="20">Route 20</label></div>
+            <div><label><input type="checkbox" name="Route21" value="21">Route 21</label></div>
+
+
+            <div><label><input type="checkbox" name="Route22" value="22">Route 22</label></div>
+            <div><label><input type="checkbox" name="Route23" value="23">Route 23</label></div>
+
+
+            <div><label><input type="checkbox" name="Route24" value="24">Route 24</label></div>
+            <div><label><input type="checkbox" name="Route25" value="25">Route 25</label></div>
+
+
+            <div><label><input type="checkbox" name="Route26" value="26">Route 26</label></div>
+            <div><label><input type="checkbox" name="Route27" value="27">Route 27</label></div>
+
+
+            <div><label><input type="checkbox" name="Route28" value="28">Route 28</label></div>
+            <div><label><input type="checkbox" name="Route29" value="29">Route 29</label></div>
+
+
+            <div><label><input type="checkbox" name="Route32" value="32">Route 32</label></div>
+            <div><label><input type="checkbox" name="Route33" value="33">Route 33</label></div>
+
+
+            <div><label><input type="checkbox" name="Route34" value="34">Route 34</label></div>
+            <div><label><input type="checkbox" name="Route39" value="39">Route 35</label></div>
+
+
+            <div><label><input type="checkbox" name="Route42" value="42">Route 42</label></div>
+            <div><label><input type="checkbox" name="Route43" value="43">Route 43</label></div>
+
+
+            <div><label><input type="checkbox" name="Route44" value="44">Route 44</label></div>
+            <div><label><input type="checkbox" name="Route45" value="45">Route 45</label></div>
+
+
+            <div><label><input type="checkbox" name="Route60" value="60">Route 60</label></div>
+            <div><label><input type="checkbox" name="Route61" value="61">Route 61</label></div>
+
+
+            <div><label><input type="checkbox" name="Route62" value="62">Route 62</label></div>
+            <div><label><input type="checkbox" name="Route66" value="66">Route 66</label></div>
+
+
+            <div><label><input type="checkbox" name="Route68" value="68">Route 68</label></div>
+            <div><label><input type="checkbox" name="Route74" value="74">Route 74</label></div>
+
+
+            <div><label><input type="checkbox" name="Route90" value="90">Route 90</label></div>
+            <div><label><input type="checkbox" name="Route94" value="94">Route 94</label></div>
+
+
+            <div><label><input type="checkbox" name="Route95" value="95">Route 95</label></div>
+            <div><label><input type="checkbox" name="Route96" value="96">Route 96</label></div>
+
+
+            <div><label><input type="checkbox" name="Route97" value="97">Route 97</label></div>
+            <div><label><input type="checkbox" name="Route98" value="98">Route 98</label></div>
+
+
+            <div><label><input type="checkbox" name="Route124" value="124">Route 124</label></div>
+            <div><label><input type="checkbox" name="Route165" value="165">Route 165</label></div>
+
+
+            <div><label><input type="checkbox" name="Route172" value="172">Route 172</label></div>
+            <div><label><input type="checkbox" name="Route173" value="173">Route 173</label></div>
+
+	</form>
+	<div id="LowAcc" style="font-size: 10px;"></div>
+	<div id="Refresh" style="font-size: 10px;"></div>
 
 </div>
 <div id="map" style="margin-left:150px"></div>
@@ -71,12 +127,12 @@
             map: map
         });
 	}
-        var timeleft = 11;
+        var timeleft = 10;
         var downloadTimer = setInterval(function () {
             timeleft--;
             document.getElementById("Refresh").innerHTML = "Refresh in " + timeleft + " sec";
             if (timeleft <= 0) {
-                timeleft = 11;
+                timeleft = 10;
                 setInterval(downloadTimer)
             }
         }, 1000);
