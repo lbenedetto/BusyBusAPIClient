@@ -21,3 +21,9 @@ CREATE TABLE IF NOT EXISTS stops
   departure_time VARCHAR(8),
   stop_name_short VARCHAR(8)
 );
+
+CREATE TABLE IF NOT EXISTS stop_names
+(
+  long_name VARCHAR(50),
+  short_name VARCHAR(8)
+);

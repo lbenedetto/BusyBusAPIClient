@@ -35,3 +35,8 @@ function apply(){
 	$("#applyButton").attr("disabled", "disabled");
 	getBuses();
 }
+
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    // some code that changes the side nav's css to make everything bigger
+	//There's literally a CSS thing for doing this
+}

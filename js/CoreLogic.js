@@ -1,4 +1,4 @@
-var map, latitude, longitude, markers = [], currentTripId, currentRouteId, locationMarker, locationError = false;
+var map, latitude, longitude, markers = [], currentTripId, currentRouteId, locationMarker, locationError = false, busPaths = [];
 
 //TODO: Uncomment this before deploying
 // if (location.protocol !== 'https:') {
@@ -45,7 +45,7 @@ var routeColors = {
     173:'#fa692f'};
 
 
-    var timeleft = 1;
+    var timeleft = 2;
     var downloadTimer = setInterval(function () {
         timeleft--;
         document.getElementById("Refresh").innerHTML = "Refresh in " + timeleft + " sec";
@@ -116,15 +116,24 @@ function markerClick() {
 		var shape = $.map(shapeJSON, function (el) {
 			return el;
 		});
+		if(!(currentRouteId in busPaths)){
+			var busPath = new google.maps.Polyline({
+				path: shape,
+				geodesic: true,
+				strokeColor: routeColors[currentRouteId],
+				strokeOpacity: 1.0,
+				strokeWeight: 4
+			});
+			busPath.setMap(map);
+			busPaths[currentRouteId] = busPath;
+		}else{
+			try{
+				busPaths[currentRouteId].setMap(null);
+				delete busPaths[currentRouteId];
+			}catch(NOTHING){
 
-		var flightPath = new google.maps.Polyline({
-			path: shape,
-			geodesic: true,
-			strokeColor: routeColors[currentRouteId],
-			strokeOpacity: 1.0,
-			strokeWeight: 4
-		});
-		flightPath.setMap(map);
+			}
+		}
 	});
 }
 
