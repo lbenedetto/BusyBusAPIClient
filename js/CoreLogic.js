@@ -1,4 +1,4 @@
-var map, latitude, longitude, markers = [], currentTripId, locationMarker;
+var map, latitude, longitude, markers = [], currentTripId, locationMarker, locationError = false;
 
 //TODO: Uncomment this before deploying
 // if (location.protocol !== 'https:') {
@@ -37,13 +37,13 @@ function getBuses() {
 
 function drawMarker(latitude, longitude, bearing, tripId, routeId) {
 
-	var size = 20;
+	var size = 30;
 	var latLng = new google.maps.LatLng(latitude, longitude);
 	var marker = new google.maps.Marker({
 		position: latLng,
 		icon: {
 			url: "./icons/" + routeId + ".png",
-			scaledSize: new google.maps.Size(size, size)
+			scaledSize: new google.maps.Size(size * 1.25, size)
 		},
 		map: map,
 		tripId: tripId,
@@ -57,7 +57,7 @@ function drawMarker(latitude, longitude, bearing, tripId, routeId) {
 			position: latLng,
 			icon: {
 				url: "./icons/direction" + bearing + ".png",
-				scaledSize: new google.maps.Size(size, size)
+				scaledSize: new google.maps.Size(size * 1.25, size)
 			},
 			map: map,
 			tripId: tripId,
@@ -122,7 +122,10 @@ function getLocation(callback) {
 				if(callback !== null) callback();
 			},
 			function error(msg) {
-				alert(msg);
+				if(!locationError){
+					locationError=true;
+					alert("Could not get location");
+				}
 			},
 			{
 				maximumAge: 60,

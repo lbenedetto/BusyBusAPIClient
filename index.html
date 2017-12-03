@@ -20,68 +20,67 @@
 			padding: 0;
 		}
 
-		[type="checkbox"] + label {
-			padding-left: 26px !important;
+		[type="checkbox"] {
+			width: 75px;
+			height: 75px;
+		}
+
+		label {
+			padding-left: 0 !important;
+		}
+
+		.imageCheckBox {
+			height: 50px;
 		}
 	</style>
 	<link href="./css/materialize.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
+
 <ul id="slide-out" class="side-nav">
 	<li><a class="waves-effect waves-light btn" id="invertSelectionBtn" onclick="invertSelection()">Invert Selection</a></li>
 	<li><form action="#">
 		<div class="center-align" style="margin-left: 0;">
-			<div id="col1" style="display:inline-block;">
-				<p><input type="checkbox" class="filled-in" id="1" checked="checked" /><label for="1">1</label></p>
-				<p><input type="checkbox" class="filled-in" id="2" checked="checked" /><label for="2">2</label></p>
-				<p><input type="checkbox" class="filled-in" id="20" checked="checked" /><label for="20">20</label></p>
-				<p><input type="checkbox" class="filled-in" id="21" checked="checked" /><label for="21">21</label></p>
-				<p><input type="checkbox" class="filled-in" id="22" checked="checked" /><label for="22">22</label></p>
-				<p><input type="checkbox" class="filled-in" id="23" checked="checked" /><label for="23">23</label></p>
-				<p><input type="checkbox" class="filled-in" id="24" checked="checked" /><label for="24">24</label></p>
-				<p><input type="checkbox" class="filled-in" id="25" checked="checked" /><label for="25">25</label></p>
-				<p><input type="checkbox" class="filled-in" id="26" checked="checked" /><label for="26">26</label></p>
-			</div>
-			<div id="col1-margin" style="display:inline-block; margin-left: 15px;"></div>
-			<div id="col2" style="display:inline-block;">
-				<p><input type="checkbox" class="filled-in" id="27" checked="checked" /><label for="27">27</label></p>
-				<p><input type="checkbox" class="filled-in" id="28" checked="checked" /><label for="28">28</label></p>
-				<p><input type="checkbox" class="filled-in" id="29" checked="checked" /><label for="29">29</label></p>
-				<p><input type="checkbox" class="filled-in" id="32" checked="checked" /><label for="32">32</label></p>
-				<p><input type="checkbox" class="filled-in" id="33" checked="checked" /><label for="33">33</label></p>
-				<p><input type="checkbox" class="filled-in" id="34" checked="checked" /><label for="34">34</label></p>
-				<p><input type="checkbox" class="filled-in" id="39" checked="checked" /><label for="39">39</label></p>
-				<p><input type="checkbox" class="filled-in" id="42" checked="checked" /><label for="42">42</label></p>
-				<p><input type="checkbox" class="filled-in" id="43" checked="checked" /><label for="43">43</label></p>
-			</div>
-			<div id="col2-margin" style="display:inline-block; margin-left: 15px;"></div>
-			<div id="col3" style="display:inline-block;">
-				<p><input type="checkbox" class="filled-in" id="44" checked="checked" /><label for="44">44</label></p>
-				<p><input type="checkbox" class="filled-in" id="45" checked="checked" /><label for="45">45</label></p>
-				<p><input type="checkbox" class="filled-in" id="60" checked="checked" /><label for="60">60</label></p>
-				<p><input type="checkbox" class="filled-in" id="61" checked="checked" /><label for="61">61</label></p>
-				<p><input type="checkbox" class="filled-in" id="62" checked="checked" /><label for="62">62</label></p>
-				<p><input type="checkbox" class="filled-in" id="66" checked="checked" /><label for="66">66</label></p>
-				<p><input type="checkbox" class="filled-in" id="68" checked="checked" /><label for="68">68</label></p>
-				<p><input type="checkbox" class="filled-in" id="74" checked="checked" /><label for="74">74</label></p>
-				<p><input type="checkbox" class="filled-in" id="90" checked="checked" /><label for="90">90</label></p>
-			</div>
-			<div id="col3-margin" style="display:inline-block; margin-left: 15px;"></div>
-			<div id="col4" style="display:inline-block;">
-				<p><input type="checkbox" class="filled-in" id="94" checked="checked" /><label for="94">94</label></p>
-				<p><input type="checkbox" class="filled-in" id="95" checked="checked" /><label for="95">95</label></p>
-				<p><input type="checkbox" class="filled-in" id="96" checked="checked" /><label for="96">96</label></p>
-				<p><input type="checkbox" class="filled-in" id="97" checked="checked" /><label for="97">97</label></p>
-				<p><input type="checkbox" class="filled-in" id="98" checked="checked" /><label for="98">98</label></p>
-				<p><input type="checkbox" class="filled-in" id="124" checked="checked" /><label for="124">124</label></p>
-				<p><input type="checkbox" class="filled-in" id="165" checked="checked" /><label for="165">165</label></p>
-				<p><input type="checkbox" class="filled-in" id="172" checked="checked" /><label for="172">172</label></p>
-				<p><input type="checkbox" class="filled-in" id="173" checked="checked" /><label for="173">173</label></p>
-			</div>
+			<img class="imageCheckBox" id="1" src="./icons/1.png" alt="1">
+			<img class="imageCheckBox" id="2" src="./icons/2.png" alt="2">
+			<img class="imageCheckBox" id="20" src="./icons/20.png" alt="20">
+			<img class="imageCheckBox" id="21" src="./icons/21.png" alt="21">
+			<img class="imageCheckBox" id="22" src="./icons/22.png" alt="22">
+			<img class="imageCheckBox" id="23" src="./icons/23.png" alt="23">
+			<img class="imageCheckBox" id="24" src="./icons/24.png" alt="24">
+			<img class="imageCheckBox" id="25" src="./icons/25.png" alt="25">
+			<img class="imageCheckBox" id="26" src="./icons/26.png" alt="26">
+			<img class="imageCheckBox" id="27" src="./icons/27.png" alt="27">
+			<img class="imageCheckBox" id="28" src="./icons/28.png" alt="28">
+			<img class="imageCheckBox" id="29" src="./icons/29.png" alt="29">
+			<img class="imageCheckBox" id="32" src="./icons/32.png" alt="32">
+			<img class="imageCheckBox" id="33" src="./icons/33.png" alt="33">
+			<img class="imageCheckBox" id="34" src="./icons/34.png" alt="34">
+			<img class="imageCheckBox" id="39" src="./icons/39.png" alt="39">
+			<img class="imageCheckBox" id="42" src="./icons/42.png" alt="42">
+			<img class="imageCheckBox" id="43" src="./icons/43.png" alt="43">
+			<img class="imageCheckBox" id="44" src="./icons/44.png" alt="44">
+			<img class="imageCheckBox" id="45" src="./icons/45.png" alt="45">
+			<img class="imageCheckBox" id="60" src="./icons/60.png" alt="60">
+			<img class="imageCheckBox" id="61" src="./icons/61.png" alt="61">
+			<img class="imageCheckBox" id="62" src="./icons/62.png" alt="62">
+			<img class="imageCheckBox" id="66" src="./icons/66.png" alt="66">
+			<img class="imageCheckBox" id="68" src="./icons/68.png" alt="68">
+			<img class="imageCheckBox" id="74" src="./icons/74.png" alt="74">
+			<img class="imageCheckBox" id="90" src="./icons/90.png" alt="90">
+			<img class="imageCheckBox" id="94" src="./icons/94.png" alt="94">
+			<img class="imageCheckBox" id="95" src="./icons/95.png" alt="95">
+			<img class="imageCheckBox" id="96" src="./icons/96.png" alt="96">
+			<img class="imageCheckBox" id="97" src="./icons/97.png" alt="97">
+			<img class="imageCheckBox" id="98" src="./icons/98.png" alt="98">
+			<img class="imageCheckBox" id="124" src="./icons/124.png" alt="124">
+			<img class="imageCheckBox" id="165" src="./icons/165.png" alt="165">
+			<img class="imageCheckBox" id="172" src="./icons/172.png" alt="172">
+			<img class="imageCheckBox" id="173" src="./icons/173.png" alt="173">
 		</div>
 	</form></li>
-	<li><a class="waves-effect waves-light btn" id="applyBtn" onclick="getBuses()" disabled="true">Apply</a></li>
+	<li><a class="waves-effect waves-light btn" id="applyButton" onclick="apply()" disabled="true">Apply</a></li>
 	<li id="LowAcc" class="center-align" style="font-size: 10px;"></li>
 	<li id="Refresh" class="center-align" style="font-size: 10px;"></li>
 </ul>

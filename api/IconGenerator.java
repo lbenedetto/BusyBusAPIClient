@@ -1,4 +1,5 @@
 
+
 import javafx.application.Application;
 import javafx.embed.swing.SwingFXUtils;
 import javafx.fxml.FXMLLoader;
@@ -70,68 +71,72 @@ public class IconGenerator extends Application {
         for (int i = 0; i < nums.length; i++) {
             nums[i] = Integer.parseInt(numArray[i]);
         }
-        Canvas arrows = new Canvas(128, 128);
+        Canvas arrows = new Canvas(160, 128);
         GraphicsContext arGc = arrows.getGraphicsContext2D();
-        arGc.setStroke(Color.BLACK);
-        arGc.setLineWidth(2);
-
         for (int i = 0; i < 8; i++) {
 
             arGc.save();
-            arGc.clearRect(0, 0, 128, 128);
+            arGc.clearRect(0, 0, 160, 128);
             arGc.setFill(Color.TRANSPARENT);
-            arGc.fillRect(0, 0, 128, 128);
-            double scaleX = arrows.getWidth() / 128;
+            arGc.fillRect(0, 0, 160, 128);
+            double scaleX = arrows.getWidth() / 160;
             double scaleY = arrows.getHeight() / 128;
             arGc.scale(scaleX, scaleY);
             SnapshotParameters sp = new SnapshotParameters();
             sp.setFill(Color.TRANSPARENT);
+            double widthThing = arrows.getWidth() - 8;
+            double heightThing = arrows.getHeight() - 8;
             switch (i) {
 
                 case 0:
-                    arGc.translate(6, 6);
+                    arGc.translate(4, 4);
                     break;
 
                 case 1:
-                    arGc.translate(61, 6);
+                    arGc.translate(widthThing/2 + 4, 4);
                     arGc.rotate(45);
                     break;
 
                 case 2:
-                    arGc.translate(122, 6);
+                    arGc.translate(widthThing + 4, 4);
                     arGc.rotate(45 * i);
                     break;
 
                 case 3:
-                    arGc.translate(122, 61);
+                    arGc.translate(widthThing + 4, heightThing/2 + 4);
                     arGc.rotate(45 * i);
                     break;
 
                 case 4:
-                    arGc.translate(122, 122);
+                    arGc.translate(widthThing + 4, heightThing + 4);
                     arGc.rotate(45 * i);
                     break;
 
                 case 5:
-                    arGc.translate(61, 122);
+                    arGc.translate(widthThing/2 + 4, heightThing + 4);
                     arGc.rotate(45 * i);
                     break;
 
                 case 6:
-                    arGc.translate(6, 122);
+                    arGc.translate(4, heightThing + 4);
                     arGc.rotate(45 * i);
                     break;
 
                 case 7:
-                    arGc.translate(6, 61);
+                    arGc.translate(4, heightThing/2 + 4);
                     arGc.rotate(45 * i);
                     break;
 
             }
-            arGc.strokeLine(0, 0, 16, 0);
-            arGc.strokeLine(0, 0, 0, 16);
+            arGc.setFill(Color.BLACK);
+            double[] xs = new double[]{0, 24, 0};
+            double[] ys = new double[]{0, 0, 24};
+            arGc.fillPolygon(xs, ys, 3);
+            //arGc.strokeLine(0, 0, 20, 0);
+            //arGc.strokeLine(0, 0, 0, 20);
+            //arGc.strokeLine(0, 20, 20, 0);
             arGc.restore();
-            WritableImage writableImage = new WritableImage(128, 128);
+            WritableImage writableImage = new WritableImage(160, 128);
             arrows.snapshot(sp, writableImage);
             RenderedImage renderedImage = SwingFXUtils.fromFXImage(writableImage, null);
             ImageIO.write(renderedImage, "png", new File("direction" + getBearing(i) + ".png"));
@@ -139,7 +144,7 @@ public class IconGenerator extends Application {
         }
         String colors = getColors(nums.length);
         String[] RGBs = colors.split("/");
-        Canvas canvas = new Canvas(128, 128);
+        Canvas canvas = new Canvas(160, 128);
         GraphicsContext gc = canvas.getGraphicsContext2D();
         SnapshotParameters sp = new SnapshotParameters();
         sp.setFill(Color.TRANSPARENT);
@@ -147,21 +152,34 @@ public class IconGenerator extends Application {
             try {
 
                 gc.setFill(Color.TRANSPARENT);
-                gc.fillRect(0, 0, 128, 128);
+                gc.fillRect(0, 0, 160, 128);
                 String[] rgb = RGBs[i].split(",");
                 int r = (int) Double.parseDouble(rgb[0]);
                 int g = (int) Double.parseDouble(rgb[1]);
                 int b = (int) Double.parseDouble(rgb[2]);
                 gc.setFill(Color.rgb(r, g, b));
-                gc.fillRoundRect(0, 0, 128, 128, 30, 30);
+                gc.fillRoundRect(0, 0, 160, 128, 36, 36);
                 gc.setFill(Color.BLACK);
                 gc.setFont(Font.font(72));
                 gc.setTextAlign(TextAlignment.CENTER);
-                gc.fillText(numArray[i], 64, 90);
-                WritableImage writableImage = new WritableImage(128, 128);
+                gc.fillText(numArray[i], 80, 90);
+                WritableImage writableImage = new WritableImage(160, 128);
                 canvas.snapshot(sp, writableImage);
                 RenderedImage renderedImage = SwingFXUtils.fromFXImage(writableImage, null);
                 ImageIO.write(renderedImage, "png", new File(numArray[i] + ".png"));
+                gc.clearRect(0, 0, 160, 128);
+                gc.setStroke(Color.rgb(r, g, b));
+                gc.setLineWidth(4);
+                gc.strokeRoundRect(0, 0, 160, 128, 36, 36);
+                gc.setFill(Color.BLACK);
+                gc.setFont(Font.font(72));
+                gc.setTextAlign(TextAlignment.CENTER);
+                gc.fillText(numArray[i], 80, 90);
+                writableImage = new WritableImage(160, 128);
+                canvas.snapshot(sp, writableImage);
+                renderedImage = SwingFXUtils.fromFXImage(writableImage, null);
+                ImageIO.write(renderedImage, "png", new File(numArray[i] + "unchecked.png"));
+
             } catch (IOException ex) {
                 ex.printStackTrace();
             }
