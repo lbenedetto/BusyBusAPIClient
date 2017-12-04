@@ -73,13 +73,25 @@ function getBuses() {
 					this["trip"]["tripId"],
 					this["trip"]["routeId"])
 			});
+			//TODO: Remove paths from routes that have been filtered out
+			//might work
+			busPaths.forEach(function(e) {
+                var tripID = e['tripId'];
+                if (!(tripID in markers.tripId)) {
+                    try {
+                        busPaths[tripID].setMap(null);
+                        delete busPaths[tripID];
+                    } catch (NOTHING) {
+
+                    }
+                }
+            })
 		}
 	);
 }
 
 function drawMarker(latitude, longitude, bearing, tripId, routeId) {
-	//TODO: Route ID might contain extra crap we don't care about
-	//For example, "T 90." is a routeId. We should parse that down to just 90
+	routeId = routeId.match(/(\d+)/g)[0];
 	var size = 30;
 	var latLng = new google.maps.LatLng(latitude, longitude);
 	var marker = new google.maps.Marker({
@@ -120,8 +132,7 @@ function markerClick() {
 		var shape = $.map(shapeJSON, function (el) {
 			return el;
 		});
-		//TODO: Remove paths from routes that have been filtered out
-		if (!(currentRouteId in busPaths)) {
+		if (!(currentTripId in busPaths)) {
 			var busPath = new google.maps.Polyline({
 				path: shape,
 				geodesic: true,
@@ -130,11 +141,13 @@ function markerClick() {
 				strokeWeight: 4
 			});
 			busPath.setMap(map);
-			busPaths[currentRouteId] = busPath;
+			busPaths[currentTripId] = [];
+			busPaths[currentTripId]["path"] = busPath;
+			busPaths[currentTripId]["routeId"] = currentRouteId;
 		} else {
 			try {
-				busPaths[currentRouteId].setMap(null);
-				delete busPaths[currentRouteId];
+				busPaths[currentTripId]["path"].setMap(null);
+				delete busPaths[currentTripId];
 			} catch (NOTHING) {
 
 			}
@@ -210,7 +223,7 @@ function getAndInsertDetails(place){
 	$.get("./api/v1/schedule/",
 		{
 			"name" : place.name,
-			"routes[]": getActiveTripIds()
+			"trips[]": getActiveTripIds()
 		},
 		function injectDetails(response){
 			//TODO: Inject schedule into popup using JQuery

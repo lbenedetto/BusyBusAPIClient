@@ -64,11 +64,18 @@ function getTripUpdateData($feedEntity) {
 function getStopTimeUpdateListData($tripUpdate) {
 	/** @var \transit_realtime\TripUpdate $tripUpdate */
 	/** @var \transit_realtime\TripUpdate\StopTimeUpdate $stopTimeUpdate */
+	global $constants;
 	$stopTimeUpdateListData = array();
 	if ($tripUpdate->hasStopTimeUpdate()) {
 		$stopTimeUpdateList = $tripUpdate->getStopTimeUpdateList();
 		for ($i = 0; $i < sizeof($stopTimeUpdateList); $i++) {
 			$stopTimeUpdate = $stopTimeUpdateList[$i];
+			if($stopTimeUpdate->hasStopSequence()){
+				$stopTimeUpdateListData[$i]["stopSeqeuence"] = $stopTimeUpdate->getStopSequence();
+			}
+			if($stopTimeUpdate->hasStopId()){
+				$stopTimeUpdateListData[$i]["stopId"] = $stopTimeUpdate->getStopId();
+			}
 			if ($stopTimeUpdate->hasArrival()) {
 				$stopTimeEvent = $stopTimeUpdate->getArrival();
 				$stopTimeUpdateListData[$i]["arrival"] = getStopTimeEvent($stopTimeEvent);
@@ -76,6 +83,10 @@ function getStopTimeUpdateListData($tripUpdate) {
 			if ($stopTimeUpdate->hasDeparture()) {
 				$stopTimeEvent = $stopTimeUpdate->getDeparture();
 				$stopTimeUpdateListData[$i]["departure"] = getStopTimeEvent($stopTimeEvent);
+			}
+			if ($stopTimeUpdate->hasScheduleRelationship()) {
+				$rel = $constants["TripUpdateScheduleRelationship"][$stopTimeUpdate->getScheduleRelationship()];
+				$stopTimeUpdateListData[$i]["scheduleRelationship"] = $rel;
 			}
 		}
 	}

@@ -59,7 +59,8 @@ function getShapeByTripId($tripId) {
 
 	$stmt = $pdo->prepare("SELECT shape_id FROM trips WHERE trip_id = ?");
 	$stmt->execute([$tripId]);
-	$shapeID = $stmt->fetch();
+	$shapeIDs = $stmt->fetchAll();
+	$shapeID = $shapeIDs[0]["shape_id"];
 	$query = "SELECT sequence, latitude, longitude FROM shapes WHERE shape_id = ?";
 	$stmt = $pdo->prepare($query);
 	$stmt->execute([$shapeID]);
@@ -67,18 +68,20 @@ function getShapeByTripId($tripId) {
 
 	return encodeResult($results);
 }
-
-function getSchedule($longName, $routes){
+function getShortName($longName){
 	global $pdo;
 
 	$stmt = $pdo->prepare("SELECT short_name FROM stop_names WHERE long_name = ?");
 	$stmt->execute([$longName]);
 	$shortName = $stmt->fetch();
-
-	$in = str_repeat('?,', count($routes) - 1) . '?';
-	array_unshift($routes, $shortName["short_name"]);
+	return $shortName["short_name"];
+}
+function getSchedule($shortName, $trips){
+	global $pdo;
+	$in = str_repeat('?,', count($trips) - 1) . '?';
+	array_unshift($trips, $shortName);
 	$stmt = $pdo->prepare("SELECT trip_id, arrival_time, departure_time FROM stops WHERE stop_name_short = ? AND trip_id IN ($in)");
-	$stmt->execute($routes);
+	$stmt->execute($trips);
 	$results = $stmt->fetchAll();
 	//TODO: return route_id instead of trip_id
 	//TODO: return delay information as well

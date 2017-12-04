@@ -31,7 +31,7 @@ function getPositions($feedMessage, $routes) {
 }
 
 function getFeedMessage(){
-	$data = file_get_contents("http://205.143.55.253:8250/Vehicle/VehiclePositions.pb");
+	$data = file_get_contents("http://205.143.55.253:8250/TripUpdate/TripUpdates.pb");
 	$feedMessage = new FeedMessage();
 	$feedMessage->parse($data);
 	return $feedMessage;
