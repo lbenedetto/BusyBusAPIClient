@@ -92,6 +92,14 @@
 <span id="LowAcc" class="left-align" style="font-size: 10px;"></span>
 <span id="Refresh" class="left-align" style="font-size: 1em;"></span>
 <div id="map"></div>
+<table class="hiddendiv scheduleTable">
+	<tr>
+		<th>Route</th>
+		<th>Arrival</th>
+		<th>Departure</th>
+		<th>Delay</th>
+	</tr>
+</table>
 <script>
 	var map;
 	var clickHandler;
@@ -221,6 +229,7 @@
 		this.directionsService.route({
 			origin: this.origin,
 			destination: {placeId: placeId},
+			preserveViewport: true,
 			travelMode: 'WALKING'
 		}, function (response, status) {
 			if (status === 'OK') {

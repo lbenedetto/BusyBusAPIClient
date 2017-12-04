@@ -2,10 +2,9 @@ var map, latitude, longitude, markers = [], currentTripId, currentRouteId, locat
 	busPaths = [];
 
 //TODO: Uncomment this before deploying
-// if (location.protocol !== 'https:') {
-// 	location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
-// }
-//Update bus locations every 10 seconds
+if (location.protocol !== 'https:') {
+	location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+}
 
 var routeColors = {
 	1: '#f3801f',
@@ -74,18 +73,18 @@ function getBuses() {
 					this["trip"]["routeId"])
 			});
 			//TODO: Remove paths from routes that have been filtered out
-			//might work
-			busPaths.forEach(function(e) {
-                var tripID = e['tripId'];
-                if (!(tripID in markers.tripId)) {
-                    try {
-                        busPaths[tripID].setMap(null);
-                        delete busPaths[tripID];
-                    } catch (NOTHING) {
+			//Doesn't work
+			busPaths.forEach(function (e) {
+				var tripID = e['tripId'];
+				if (!(tripID in markers.tripId)) {
+					try {
+						busPaths[tripID].setMap(null);
+						delete busPaths[tripID];
+					} catch (NOTHING) {
 
-                    }
-                }
-            })
+					}
+				}
+			})
 		}
 	);
 }
@@ -179,6 +178,9 @@ function showLocationMarker() {
 }
 
 function getLocation(callback) {
+	//Spokane's coordinates
+	latitude = 47.6588;
+	longitude = -117.4260;
 	if (navigator.geolocation) {
 		navigator.geolocation.getCurrentPosition(
 			function setPosition(position) {
@@ -195,6 +197,7 @@ function getLocation(callback) {
 					console.log("Could not get location");
 					//alert("Could not get location");
 				}
+				if (callback !== null) callback();
 			},
 			{
 				maximumAge: 60,
@@ -202,12 +205,8 @@ function getLocation(callback) {
 				enableHighAccuracy: true
 			});
 	} else {
-		//Spokane's coordinates
-		latitude = 47.6588;
-		longitude = -117.4260;
 		if (callback !== null) callback();
 	}
-
 }
 
 function getActiveTripIds() {
@@ -217,18 +216,48 @@ function getActiveTripIds() {
 	}
 	return out;
 }
-function getAndInsertDetails(place){
-	//TODO: Update api to use the realtime feed to include bus delay
-	//api/v1/SQL.php::
+
+function getAndInsertDetails(place) {
 	$.get("./api/v1/schedule/",
 		{
-			"name" : place.name,
+			"name": place.name,
 			"trips[]": getActiveTripIds()
 		},
-		function injectDetails(response){
-			//TODO: Inject schedule into popup using JQuery
+		function injectDetails(response) {
 			console.log(response);
-			console.log(JSON.parse(response))
+			var container = $(".transit-container");
+			//TODO: Remove old scheduleTable from transit container before adding new ones
+			container.remove(".scheduleTable");
+			var newTable = $(".scheduleTable").clone(true);
+			newTable.removeClass("hiddendiv");
+			jQuery.each(JSON.parse(response), function insertItem(i, val) {
+				var keys = ["routeId", "arrival", "departure", "delay"];
+				var tr = document.createElement('tr');
+				var delay = val["delay"];
+				if (delay === 0 || delay === null) {
+					val["delay"] = "On Time";
+				} else {
+					delay = delay / 60;
+					var quantifier = " minutes ";
+					if (delay < 0) quantifier += "early";
+					else quantifier += "late";
+					val["delay"] = delay + quantifier;
+				}
+				for (var j = 0; j < 4; j++) {
+					var key = keys[j];
+					var item = "?";
+					if (key in val) {
+						item = val[key];
+						if (item === null) item = "?";
+					}
+					var td = document.createElement('td');
+					td.appendChild(document.createTextNode(item));
+					tr.appendChild(td);
+				}
+				newTable.append(tr);
+			});
+			container.append(newTable)
+
 		}
 	);
 }

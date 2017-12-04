@@ -83,8 +83,6 @@ function getSchedule($shortName, $trips){
 	$stmt = $pdo->prepare("SELECT trip_id, arrival_time, departure_time FROM stops WHERE stop_name_short = ? AND trip_id IN ($in)");
 	$stmt->execute($trips);
 	$results = $stmt->fetchAll();
-	//TODO: return route_id instead of trip_id
-	//TODO: return delay information as well
 	return $results;
 }
 
