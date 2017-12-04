@@ -1,4 +1,5 @@
-var map, latitude, longitude, markers = [], currentTripId, currentRouteId, locationMarker, locationError = false, busPaths = [];
+var map, latitude, longitude, markers = [], currentTripId, currentRouteId, locationMarker, locationError = false,
+	busPaths = [];
 
 //TODO: Uncomment this before deploying
 // if (location.protocol !== 'https:') {
@@ -7,54 +8,55 @@ var map, latitude, longitude, markers = [], currentTripId, currentRouteId, locat
 //Update bus locations every 10 seconds
 
 var routeColors = {
-	1:'#f3801f',
-    2:'#e89612',
-    20:'#daab09',
-    21:'#c9bf03',
-    22:'#b6d101',
-    23:'#a1e102',
-    24:'#8bed08',
-    25:'#75f711',
-    26:'#60fd1d',
-    27:'#4bff2c',
-    28:'#37fd3e',
-    29:'#26f752',
-    32:'#18ed68',
-    33:'#0de17e',
-    34:'#05d194',
-    39:'#01bfa9',
-    42:'#01abbd',
-    43:'#0596d0',
-    44:'#0c80e0',
-    45:'#1769ed',
-    60:'#2554f6',
-    61:'#3640fc',
-    62:'#492efe',
-    66:'#5e1efd',
-    68:'#7412f7',
-    74:'#8a08ee',
-    90:'#9f02e2',
-    94:'#b401d3',
-    95:'#c802c1',
-    96:'#d908ad',
-    97:'#e71297',
-    98:'#f21e81',
-    124:'#fa2e6b',
-    165:'#fe4056',
-    172:'#fe5442',
-    173:'#fa692f'};
+	1: '#f3801f',
+	2: '#e89612',
+	20: '#daab09',
+	21: '#c9bf03',
+	22: '#b6d101',
+	23: '#a1e102',
+	24: '#8bed08',
+	25: '#75f711',
+	26: '#60fd1d',
+	27: '#4bff2c',
+	28: '#37fd3e',
+	29: '#26f752',
+	32: '#18ed68',
+	33: '#0de17e',
+	34: '#05d194',
+	39: '#01bfa9',
+	42: '#01abbd',
+	43: '#0596d0',
+	44: '#0c80e0',
+	45: '#1769ed',
+	60: '#2554f6',
+	61: '#3640fc',
+	62: '#492efe',
+	66: '#5e1efd',
+	68: '#7412f7',
+	74: '#8a08ee',
+	90: '#9f02e2',
+	94: '#b401d3',
+	95: '#c802c1',
+	96: '#d908ad',
+	97: '#e71297',
+	98: '#f21e81',
+	124: '#fa2e6b',
+	165: '#fe4056',
+	172: '#fe5442',
+	173: '#fa692f'
+};
 
 
-    var timeleft = 2;
-    var downloadTimer = setInterval(function () {
-        timeleft--;
-        document.getElementById("Refresh").innerHTML = "Refresh in " + timeleft + " sec";
-        if (timeleft <= 0) {
-            timeleft = 10;
-            getBuses();
-            setInterval(downloadTimer);
-        }
-    }, 1000);
+var timeleft = 2;
+var downloadTimer = setInterval(function () {
+	timeleft--;
+	document.getElementById("Refresh").innerHTML = "Refresh in " + timeleft + " sec";
+	if (timeleft <= 0) {
+		timeleft = 10;
+		getBuses();
+		setInterval(downloadTimer);
+	}
+}, 1000);
 setInterval(showLocationMarker, 1500);
 
 function getBuses() {
@@ -76,13 +78,15 @@ function getBuses() {
 }
 
 function drawMarker(latitude, longitude, bearing, tripId, routeId) {
+	//TODO: Route ID might contain extra crap we don't care about
+	//For example, "T 90." is a routeId. We should parse that down to just 90
 	var size = 30;
 	var latLng = new google.maps.LatLng(latitude, longitude);
 	var marker = new google.maps.Marker({
 		position: latLng,
 		icon: {
 			url: "./icons/" + routeId + ".png",
-            scaledSize: new google.maps.Size(size * 1.25, size)
+			scaledSize: new google.maps.Size(size * 1.25, size)
 		},
 		map: map,
 		tripId: tripId,
@@ -116,7 +120,8 @@ function markerClick() {
 		var shape = $.map(shapeJSON, function (el) {
 			return el;
 		});
-		if(!(currentRouteId in busPaths)){
+		//TODO: Remove paths from routes that have been filtered out
+		if (!(currentRouteId in busPaths)) {
 			var busPath = new google.maps.Polyline({
 				path: shape,
 				geodesic: true,
@@ -126,11 +131,11 @@ function markerClick() {
 			});
 			busPath.setMap(map);
 			busPaths[currentRouteId] = busPath;
-		}else{
-			try{
+		} else {
+			try {
 				busPaths[currentRouteId].setMap(null);
 				delete busPaths[currentRouteId];
-			}catch(NOTHING){
+			} catch (NOTHING) {
 
 			}
 		}
@@ -148,6 +153,7 @@ function deleteMarkers() {
 function showLocationMarker() {
 	getLocation(null);
 	//if (locationMarker !== null) locationMarker.setMap(null);
+	//TODO: Clear old location marker
 	var latLng = new google.maps.LatLng(latitude, longitude);
 	locationMarker = new google.maps.Marker({
 		position: latLng,
@@ -168,11 +174,11 @@ function getLocation(callback) {
 				if (position.coords.accuracy > 50) {
 					document.getElementById("LowAcc").innerHTML = "GPS Accuracy: " + position.coords.accuracy + "m";
 				}
-				if(callback !== null) callback();
+				if (callback !== null) callback();
 			},
 			function error(msg) {
-				if(!locationError){
-					locationError=true;
+				if (!locationError) {
+					locationError = true;
 					console.log("Could not get location");
 					//alert("Could not get location");
 				}
@@ -186,7 +192,30 @@ function getLocation(callback) {
 		//Spokane's coordinates
 		latitude = 47.6588;
 		longitude = -117.4260;
-		if(callback !== null) callback();
+		if (callback !== null) callback();
 	}
 
+}
+
+function getActiveTripIds() {
+	var out = [];
+	for (var i = 0; i < markers.length; i += 2) {
+		out.push(markers[i].tripId);
+	}
+	return out;
+}
+function getAndInsertDetails(place){
+	//TODO: Update api to use the realtime feed to include bus delay
+	//api/v1/SQL.php::
+	$.get("./api/v1/schedule/",
+		{
+			"name" : place.name,
+			"routes[]": getActiveTripIds()
+		},
+		function injectDetails(response){
+			//TODO: Inject schedule into popup using JQuery
+			console.log(response);
+			console.log(JSON.parse(response))
+		}
+	);
 }
