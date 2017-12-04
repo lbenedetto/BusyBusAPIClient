@@ -1,0 +1,24 @@
+{
+  "567381": {
+	"arrival": "14:20:34",
+	"departure": "14:20:34",
+	"routeId": "66",
+	"delay": 60
+  },
+  "567427": {
+	"arrival": "14:15:34",
+	"departure": "14:15:34",
+	"routeId": "66"
+  },
+  "567428": {
+	"arrival": "14:55:34",
+	"departure": "14:55:34",
+	"routeId": "66",
+	"delay": null
+  },
+  "567634": {
+	"arrival": "14:10:57",
+	"departure": "14:10:57",
+	"routeId": "68"
+  }
+}

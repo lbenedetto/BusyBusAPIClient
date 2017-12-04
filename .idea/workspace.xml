@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16863713-8846-465b-98af-e5d9d806872a" name="Default" comment="Fixed swapped names in stop_names.sql">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/BusyBusAPIClient.iml" afterPath="$PROJECT_DIR$/.idea/BusyBusAPIClient.iml" />
+    <list default="true" id="16863713-8846-465b-98af-e5d9d806872a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/test.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/example.json" afterPath="$PROJECT_DIR$/api/example.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/gtfsr.php" afterPath="$PROJECT_DIR$/api/gtfsr.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v1/SQL.php" afterPath="$PROJECT_DIR$/api/v1/SQL.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v1/locations/index.php" afterPath="$PROJECT_DIR$/api/v1/locations/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v1/schedule/index.php" afterPath="$PROJECT_DIR$/api/v1/schedule/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/CoreLogic.js" afterPath="$PROJECT_DIR$/js/CoreLogic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/UI.js" afterPath="$PROJECT_DIR$/js/UI.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -73,8 +67,8 @@
       <file leaf-file-name="SQL.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/v1/SQL.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="78" column="13" lean-forward="true" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+            <state relative-caret-position="1170">
+              <caret line="78" column="13" lean-forward="false" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
               <folding>
                 <marker date="1512366076847" expanded="true" signature="681:701" ph="SELECT * fro... shapes" />
                 <marker date="1512366076847" expanded="true" signature="866:920" ph="SELECT DISTI... trips" />
@@ -91,21 +85,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gtfsr.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/gtfsr.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/v1/schedule/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="61" selection-end-column="1" />
+            <state relative-caret-position="405">
+              <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/api/v1/schedule/index.php">
+      <file leaf-file-name="test.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/test.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+            <state relative-caret-position="75">
+              <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -114,7 +108,7 @@
       <file leaf-file-name="CoreLogic.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/CoreLogic.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
+            <state relative-caret-position="-952">
               <caret line="105" column="7" lean-forward="false" selection-start-line="105" selection-start-column="7" selection-end-line="105" selection-end-column="7" />
               <folding />
             </state>
@@ -124,7 +118,7 @@
       <file leaf-file-name="example.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/example.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="34905">
               <caret line="2327" column="11" lean-forward="false" selection-start-line="2327" selection-start-column="11" selection-end-line="2327" selection-end-column="11" />
               <folding />
             </state>
@@ -187,7 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/server.php" />
         <option value="$PROJECT_DIR$/documentation.php" />
         <option value="$PROJECT_DIR$/tripupdate.php" />
         <option value="$PROJECT_DIR$/alert.php" />
@@ -231,12 +224,13 @@
         <option value="$PROJECT_DIR$/api/vendor/autoload.php" />
         <option value="$PROJECT_DIR$/api/gtfsr.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/501855a9-68aa-4359-8017-ca1983c982b7/console.sql" />
-        <option value="$PROJECT_DIR$/api/v1/locations/index.php" />
         <option value="$PROJECT_DIR$/js/UI.js" />
         <option value="$PROJECT_DIR$/api/v1/sharedMethods.php" />
         <option value="$PROJECT_DIR$/js/CoreLogic.js" />
         <option value="$PROJECT_DIR$/api/example.json" />
         <option value="$PROJECT_DIR$/api/v1/SQL.php" />
+        <option value="$PROJECT_DIR$/api/v1/locations/index.php" />
+        <option value="$PROJECT_DIR$/api/test.json" />
         <option value="$PROJECT_DIR$/api/v1/schedule/index.php" />
       </list>
     </option>
@@ -276,6 +270,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -287,12 +283,6 @@
               <item name="BusyBusAPIClient" type="b2602c69:ProjectViewProjectNode" />
               <item name="BusyBusAPIClient" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="BusyBusAPIClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BusyBusAPIClient" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="data" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="BusyBusAPIClient" type="b2602c69:ProjectViewProjectNode" />
@@ -327,8 +317,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -408,7 +396,8 @@
       <workItem from="1512020509490" duration="53000" />
       <workItem from="1512021065283" duration="8211000" />
       <workItem from="1512189103476" duration="68189000" />
-      <workItem from="1512365333521" duration="821000" />
+      <workItem from="1512365333521" duration="1983000" />
+      <workItem from="1512423349652" duration="3645000" />
     </task>
     <task id="LOCAL-00001" summary="Made signifigant progress on extracting data">
       <created>1511302496370</created>
@@ -522,11 +511,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512353606745</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Added delay and schedule information to backend">
+      <created>1512366169942</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1512366169942</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119822000" />
+    <option name="totallyTimeSpent" value="124629000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -540,8 +536,9 @@
   <component name="ToolWindowManager">
     <frame x="2880" y="-1" width="1920" height="1053" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17662753" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.178762" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.49786553" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.50213444" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16275346" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -553,7 +550,6 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978448" sideWeight="0.49786553" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.49786553" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5592672" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -587,7 +583,8 @@
     <MESSAGE value="Finished?" />
     <MESSAGE value="Began adding feature for navigation" />
     <MESSAGE value="Fixed swapped names in stop_names.sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed swapped names in stop_names.sql" />
+    <MESSAGE value="Added delay and schedule information to backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added delay and schedule information to backend" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -596,11 +593,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/icons/27.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/icons/20.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -811,7 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -852,21 +843,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/data/urls.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/v1/locations/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/v1/sharedMethods.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -882,10 +858,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/api/example.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34905">
+          <caret line="2327" column="11" lean-forward="false" selection-start-line="2327" selection-start-column="11" selection-end-line="2327" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/v1/locations/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="56" lean-forward="true" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/data/urls.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/gtfsr.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2250">
+          <caret line="161" column="9" lean-forward="false" selection-start-line="161" selection-start-column="9" selection-end-line="161" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api/v1/SQL.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="78" column="13" lean-forward="true" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+        <state relative-caret-position="1170">
+          <caret line="78" column="13" lean-forward="false" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
           <folding>
             <marker date="1512366076847" expanded="true" signature="681:701" ph="SELECT * fro... shapes" />
             <marker date="1512366076847" expanded="true" signature="866:920" ph="SELECT DISTI... trips" />
@@ -901,34 +909,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/example.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="2327" column="11" lean-forward="false" selection-start-line="2327" selection-start-column="11" selection-end-line="2327" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/CoreLogic.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
+        <state relative-caret-position="-952">
           <caret line="105" column="7" lean-forward="false" selection-start-line="105" selection-start-column="7" selection-end-line="105" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/gtfsr.php">
+    <entry file="file://$PROJECT_DIR$/api/test.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="61" selection-end-column="1" />
+        <state relative-caret-position="75">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/v1/schedule/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        <state relative-caret-position="405">
+          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
           <folding />
         </state>
       </provider>

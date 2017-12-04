@@ -12,15 +12,24 @@ $schedule = getSchedule($shortName, $trips);
 $updates = getTripUpdates(getFeedMessage(), $trips);
 $data = array();
 foreach ($schedule as $scheduledStop) {
-	$trip = $scheduledStop["tripId"];
-	$data[$trip] = array();
-	$data[$trip]["routeId"] = $updates[$trip]["tripUpdate"]["trip"]["routeId"];
-	$data[$trip]["arrival"] = $scheduledStop["arrival_time"];
-	$data[$trip]["departure"] = $scheduledStop["departure_time"];
-	$updateList = $updates[$trip]["tripUpdate"]["stopTimeUpdateList"];
-	foreach ($updateList as $update) {
-		if ($update["stopId"] == $shortName) {
-			$data[$trip]["delay"] = $update["departure"]["delay"];
+	$trip = $scheduledStop["trip_id"];
+	if (in_array($trip, $trips)) {
+		$data[$trip] = array();
+		$data[$trip]["arrival"] = $scheduledStop["arrival_time"];
+		$data[$trip]["departure"] = $scheduledStop["departure_time"];
+		$data[$trip]["delay"] = 0;
+		if (array_key_exists($trip, $updates)) {
+			$data[$trip]["routeId"] = $updates[$trip]["trip"]["routeId"];
+			if (array_key_exists("stopTimeUpdateList", $updates[$trip])) {
+				$updateList = $updates[$trip]["stopTimeUpdateList"];
+				foreach ($updateList as $update) {
+					if ($update["stopId"] == $shortName) {
+						if(array_key_exists("departure", $update)) {
+							$data[$trip]["delay"] = $update["departure"]["delay"];
+						}
+					}
+				}
+			}
 		}
 	}
 }
@@ -32,8 +41,9 @@ function getTripUpdates($feedMessage, $trips) {
 	$allData = array();
 	foreach ($feedMessage->getEntityList() as $feedEntity) {
 		$id = $feedEntity->getId();
-		if (in_array($id, $trips))
+		if (in_array($id, $trips)) {
 			$allData[$id] = getTripUpdateData($feedEntity);
+		}
 	}
 	return $allData;
 }
@@ -54,7 +64,6 @@ function getTripUpdateData($feedEntity) {
 		$tripUpdateData["timestamp"] = $tripUpdate->getTimestamp();
 		$tripUpdateData["delay"] = $tripUpdate->getDelay();
 		$tripUpdateData["trip"] = getTripDescriptorData($tripUpdate);
-		$tripUpdateData["vehicle"] = getVehicleDescriptorData($tripUpdate);
 		$tripUpdateData["stopTimeUpdateList"] = getStopTimeUpdateListData($tripUpdate);
 	}
 	return $tripUpdateData;
