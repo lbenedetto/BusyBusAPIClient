@@ -45,7 +45,7 @@ function getShapeByRoute($route) {
 	for ($i = 0; $i < count($results); $i++) {
 		$shapeIDs[$i] = $results[$i]["shape_id"];
 	}
-	$in  = str_repeat('?,', count($shapeIDs) - 1) . '?';
+	$in = str_repeat('?,', count($shapeIDs) - 1) . '?';
 	$query = "SELECT * FROM shapes WHERE shape_id IN ($in)";
 	$stmt = $pdo->prepare($query);
 	$stmt->execute($shapeIDs);
@@ -68,7 +68,8 @@ function getShapeByTripId($tripId) {
 
 	return encodeResult($results);
 }
-function getShortName($longName){
+
+function getShortName($longName) {
 	global $pdo;
 
 	$stmt = $pdo->prepare("SELECT short_name FROM stop_names WHERE long_name = ?");
@@ -76,7 +77,8 @@ function getShortName($longName){
 	$shortName = $stmt->fetch();
 	return $shortName["short_name"];
 }
-function getSchedule($shortName, $trips){
+
+function getSchedule($shortName, $trips) {
 	global $pdo;
 	$in = str_repeat('?,', count($trips) - 1) . '?';
 	array_unshift($trips, $shortName);
@@ -86,7 +88,16 @@ function getSchedule($shortName, $trips){
 	return $results;
 }
 
-function encodeResult($results){
+function getRouteId($tripId) {
+	global $pdo;
+
+	$stmt = $pdo->prepare("SELECT route_id FROM trips WHERE trip_id= ?");
+	$stmt->execute([$tripId]);
+	$shortName = $stmt->fetch();
+	return $shortName["route_id"];
+}
+
+function encodeResult($results) {
 	$out = array();
 	for ($i = 0; $i < count($results); $i++) {
 		$sequence = intval($results[$i]["sequence"]);
@@ -98,7 +109,7 @@ function encodeResult($results){
 	return $out;
 }
 
-function encodeResults($results){
+function encodeResults($results) {
 	$out = array();
 	for ($i = 0; $i < count($results); $i++) {
 		$shapeId = $results[$i]["shape_id"];

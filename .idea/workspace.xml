@@ -5,8 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v1/SQL.php" afterPath="$PROJECT_DIR$/api/v1/SQL.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v1/schedule/index.php" afterPath="$PROJECT_DIR$/api/v1/schedule/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/CoreLogic.js" afterPath="$PROJECT_DIR$/js/CoreLogic.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -65,22 +63,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SQL.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SQL.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/v1/SQL.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+            <state relative-caret-position="488">
+              <caret line="91" column="16" lean-forward="true" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
               <folding>
-                <marker date="1512427138574" expanded="true" signature="681:701" ph="SELECT * fro... shapes" />
-                <marker date="1512427138574" expanded="true" signature="866:920" ph="SELECT DISTI... trips" />
-                <marker date="1512427138574" expanded="true" signature="1160:1204" ph="SELECT * FRO... shapes" />
-                <marker date="1512427138574" expanded="true" signature="1411:1455" ph="SELECT DISTI... trips" />
-                <marker date="1512427138574" expanded="true" signature="1568:1632" ph="SELECT * FRO... user" />
-                <marker date="1512427138574" expanded="true" signature="1568:1635" ph="SELECT * FRO... shapes" />
-                <marker date="1512427138574" expanded="true" signature="1838:1891" ph="SELECT short... stop_names" />
-                <marker date="1512427138574" expanded="true" signature="2157:2255" ph="SELECT arriv... stops" />
-                <marker date="1512427138574" expanded="true" signature="2157:2256" ph="SELECT arriv... stops" />
-                <marker date="1512427138574" expanded="true" signature="2157:2259" ph="SELECT arriv... stops" />
+                <marker date="1512431746486" expanded="true" signature="681:701" ph="SELECT * fro... shapes" />
+                <marker date="1512431746486" expanded="true" signature="866:920" ph="SELECT DISTI... trips" />
+                <marker date="1512431746486" expanded="true" signature="1159:1203" ph="SELECT * FRO... shapes" />
+                <marker date="1512431746486" expanded="true" signature="1410:1454" ph="SELECT DISTI... trips" />
+                <marker date="1512431746486" expanded="true" signature="1567:1631" ph="SELECT * FRO... user" />
+                <marker date="1512431746486" expanded="true" signature="1567:1634" ph="SELECT * FRO... shapes" />
+                <marker date="1512431746486" expanded="true" signature="1839:1892" ph="SELECT short... stop_names" />
+                <marker date="1512431746486" expanded="true" signature="2160:2258" ph="SELECT arriv... stops" />
+                <marker date="1512431746486" expanded="true" signature="2160:2259" ph="SELECT arriv... stops" />
+                <marker date="1512431746486" expanded="true" signature="2160:2262" ph="SELECT arriv... stops" />
+                <marker date="1512431746486" expanded="true" signature="2413:2456" ph="SELECT route... trips" />
               </folding>
             </state>
           </provider>
@@ -106,7 +105,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CoreLogic.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CoreLogic.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/CoreLogic.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="443">
@@ -241,10 +240,10 @@
         <option value="$PROJECT_DIR$/api/example.json" />
         <option value="$PROJECT_DIR$/api/v1/locations/index.php" />
         <option value="$PROJECT_DIR$/api/test.json" />
-        <option value="$PROJECT_DIR$/api/v1/SQL.php" />
-        <option value="$PROJECT_DIR$/api/v1/schedule/index.php" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/CoreLogic.js" />
+        <option value="$PROJECT_DIR$/api/v1/SQL.php" />
+        <option value="$PROJECT_DIR$/api/v1/schedule/index.php" />
       </list>
     </option>
   </component>
@@ -410,7 +409,7 @@
       <workItem from="1512021065283" duration="8211000" />
       <workItem from="1512189103476" duration="68189000" />
       <workItem from="1512365333521" duration="1983000" />
-      <workItem from="1512423349652" duration="8190000" />
+      <workItem from="1512423349652" duration="8950000" />
     </task>
     <task id="LOCAL-00001" summary="Made signifigant progress on extracting data">
       <created>1511302496370</created>
@@ -538,11 +537,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512427048722</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added schedule with delays to bus stop popup">
+      <created>1512431602609</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1512431602609</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129174000" />
+    <option name="totallyTimeSpent" value="129934000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -606,7 +612,8 @@
     <MESSAGE value="Fixed swapped names in stop_names.sql" />
     <MESSAGE value="Added delay and schedule information to backend" />
     <MESSAGE value="Fixed backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed backend" />
+    <MESSAGE value="Added schedule with delays to bus stop popup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added schedule with delays to bus stop popup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -918,33 +925,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/v1/SQL.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-          <folding>
-            <marker date="1512427138574" expanded="true" signature="681:701" ph="SELECT * fro... shapes" />
-            <marker date="1512427138574" expanded="true" signature="866:920" ph="SELECT DISTI... trips" />
-            <marker date="1512427138574" expanded="true" signature="1160:1204" ph="SELECT * FRO... shapes" />
-            <marker date="1512427138574" expanded="true" signature="1411:1455" ph="SELECT DISTI... trips" />
-            <marker date="1512427138574" expanded="true" signature="1568:1632" ph="SELECT * FRO... user" />
-            <marker date="1512427138574" expanded="true" signature="1568:1635" ph="SELECT * FRO... shapes" />
-            <marker date="1512427138574" expanded="true" signature="1838:1891" ph="SELECT short... stop_names" />
-            <marker date="1512427138574" expanded="true" signature="2157:2255" ph="SELECT arriv... stops" />
-            <marker date="1512427138574" expanded="true" signature="2157:2256" ph="SELECT arriv... stops" />
-            <marker date="1512427138574" expanded="true" signature="2157:2259" ph="SELECT arriv... stops" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/v1/schedule/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="451">
@@ -960,6 +940,34 @@
         <state relative-caret-position="443">
           <caret line="237" column="45" lean-forward="true" selection-start-line="237" selection-start-column="45" selection-end-line="237" selection-end-column="45" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/v1/schedule/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/v1/SQL.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="91" column="16" lean-forward="true" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
+          <folding>
+            <marker date="1512431746486" expanded="true" signature="681:701" ph="SELECT * fro... shapes" />
+            <marker date="1512431746486" expanded="true" signature="866:920" ph="SELECT DISTI... trips" />
+            <marker date="1512431746486" expanded="true" signature="1159:1203" ph="SELECT * FRO... shapes" />
+            <marker date="1512431746486" expanded="true" signature="1410:1454" ph="SELECT DISTI... trips" />
+            <marker date="1512431746486" expanded="true" signature="1567:1631" ph="SELECT * FRO... user" />
+            <marker date="1512431746486" expanded="true" signature="1567:1634" ph="SELECT * FRO... shapes" />
+            <marker date="1512431746486" expanded="true" signature="1839:1892" ph="SELECT short... stop_names" />
+            <marker date="1512431746486" expanded="true" signature="2160:2258" ph="SELECT arriv... stops" />
+            <marker date="1512431746486" expanded="true" signature="2160:2259" ph="SELECT arriv... stops" />
+            <marker date="1512431746486" expanded="true" signature="2160:2262" ph="SELECT arriv... stops" />
+            <marker date="1512431746486" expanded="true" signature="2413:2456" ph="SELECT route... trips" />
+          </folding>
         </state>
       </provider>
     </entry>

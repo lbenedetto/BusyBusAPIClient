@@ -31,7 +31,7 @@ foreach ($schedule as $scheduledStop) {
 				}
 			}
 		}else{
-			//TODO: Get route_id from database,
+			$data[$trip]["routeId"] = getRouteId($trip);
 		}
 	}
 }
