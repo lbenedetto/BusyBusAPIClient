@@ -33,6 +33,9 @@
 		.imageCheckBox {
 			height: 4em;
 		}
+		.scheduleTable {
+
+		}
 	</style>
 	<link href="./css/materialize.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -92,7 +95,7 @@
 <span id="LowAcc" class="left-align" style="font-size: 10px;"></span>
 <span id="Refresh" class="left-align" style="font-size: 1em;"></span>
 <div id="map"></div>
-<table class="hiddendiv scheduleTable">
+<table class="hiddendiv scheduleTable striped">
 	<tr>
 		<th>Route</th>
 		<th>Arrival</th>
@@ -212,6 +215,7 @@
 
 	ClickEventHandler.prototype.handleClick = function (event) {
 		if (event.placeId) {
+			$(".removeMe").remove();
 			this.calculateAndDisplayRoute(event.placeId);
 			this.placesService.getDetails({placeId: event.placeId}, handleDetails);
 

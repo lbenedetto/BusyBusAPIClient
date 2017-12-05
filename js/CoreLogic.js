@@ -226,10 +226,9 @@ function getAndInsertDetails(place) {
 		function injectDetails(response) {
 			console.log(response);
 			var container = $(".transit-container");
-			//TODO: Remove old scheduleTable from transit container before adding new ones
-			container.remove(".scheduleTable");
 			var newTable = $(".scheduleTable").clone(true);
 			newTable.removeClass("hiddendiv");
+			newTable.addClass("removeMe");
 			jQuery.each(JSON.parse(response), function insertItem(i, val) {
 				var keys = ["routeId", "arrival", "departure", "delay"];
 				var tr = document.createElement('tr');
@@ -238,9 +237,10 @@ function getAndInsertDetails(place) {
 					val["delay"] = "On Time";
 				} else {
 					delay = delay / 60;
-					var quantifier = " minutes ";
-					if (delay < 0) quantifier += "early";
-					else quantifier += "late";
+					var quantifier = " minute";
+					if(delay > 1 || delay < -1) quantifier += "s";
+					if (delay < 0) quantifier += " early";
+					else quantifier += " late";
 					val["delay"] = delay + quantifier;
 				}
 				for (var j = 0; j < 4; j++) {
