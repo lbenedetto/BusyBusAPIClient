@@ -14,6 +14,7 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.FillRule;
 import javafx.scene.text.Font;
+import javafx.scene.text.FontWeight;
 import javafx.scene.text.TextAlignment;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
@@ -25,7 +26,7 @@ import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class IconGenerator extends Application {
+public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
@@ -71,16 +72,16 @@ public class IconGenerator extends Application {
         for (int i = 0; i < nums.length; i++) {
             nums[i] = Integer.parseInt(numArray[i]);
         }
-        Canvas arrows = new Canvas(160, 128);
+        Canvas arrows = new Canvas(160, 160);
         GraphicsContext arGc = arrows.getGraphicsContext2D();
         for (int i = 0; i < 8; i++) {
 
             arGc.save();
-            arGc.clearRect(0, 0, 160, 128);
+            arGc.clearRect(0, 0, 160, 160);
             arGc.setFill(Color.TRANSPARENT);
-            arGc.fillRect(0, 0, 160, 128);
+            arGc.fillRect(0, 0, 160, 160);
             double scaleX = arrows.getWidth() / 160;
-            double scaleY = arrows.getHeight() / 128;
+            double scaleY = arrows.getHeight() / 160;
             arGc.scale(scaleX, scaleY);
             SnapshotParameters sp = new SnapshotParameters();
             sp.setFill(Color.TRANSPARENT);
@@ -136,7 +137,7 @@ public class IconGenerator extends Application {
             //arGc.strokeLine(0, 0, 0, 20);
             //arGc.strokeLine(0, 20, 20, 0);
             arGc.restore();
-            WritableImage writableImage = new WritableImage(160, 128);
+            WritableImage writableImage = new WritableImage(160, 160);
             arrows.snapshot(sp, writableImage);
             RenderedImage renderedImage = SwingFXUtils.fromFXImage(writableImage, null);
             ImageIO.write(renderedImage, "png", new File("direction" + getBearing(i) + ".png"));
@@ -144,7 +145,7 @@ public class IconGenerator extends Application {
         }
         String colors = getColors(nums.length);
         String[] RGBs = colors.split("/");
-        Canvas canvas = new Canvas(160, 128);
+        Canvas canvas = new Canvas(160, 160);
         GraphicsContext gc = canvas.getGraphicsContext2D();
         SnapshotParameters sp = new SnapshotParameters();
         sp.setFill(Color.TRANSPARENT);
@@ -152,21 +153,24 @@ public class IconGenerator extends Application {
             try {
 
                 gc.setFill(Color.TRANSPARENT);
-                gc.fillRect(0, 0, 160, 128);
+                gc.fillRect(0, 0, 160, 160);
                 String[] rgb = RGBs[i].split(",");
                 int r = (int) Double.parseDouble(rgb[0]);
                 int g = (int) Double.parseDouble(rgb[1]);
                 int b = (int) Double.parseDouble(rgb[2]);
                 gc.setFill(Color.rgb(r, g, b));
                 gc.fillRoundRect(0, 0, 160, 128, 36, 36);
-                gc.setFill(Color.BLACK);
-                gc.setFont(Font.font(72));
+                gc.setFill(Color.WHITE);
+                gc.setFont(Font.font("", FontWeight.BOLD, 72));
                 gc.setTextAlign(TextAlignment.CENTER);
                 gc.fillText(numArray[i], 80, 90);
+                gc.setStroke(Color.BLACK);
+                gc.setLineWidth(3);
+                gc.strokeText(numArray[i], 80, 90);
                 WritableImage writableImage = new WritableImage(160, 128);
                 canvas.snapshot(sp, writableImage);
                 RenderedImage renderedImage = SwingFXUtils.fromFXImage(writableImage, null);
-                ImageIO.write(renderedImage, "png", new File(numArray[i] + ".png"));
+                ImageIO.write(renderedImage, "png", new File( numArray[i] + ".png"));
                 gc.clearRect(0, 0, 160, 128);
                 gc.setStroke(Color.rgb(r, g, b));
                 gc.setLineWidth(4);
