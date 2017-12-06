@@ -1,11 +1,9 @@
 var map, latitude, longitude, markers = [], currentTripId, currentRouteId, locationMarker = null, locationError = false,
 	busPaths = [];
 
-//TODO: Uncomment this before deploying
-/*
 if (location.protocol !== 'https:') {
 	location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
-}*/
+}
 
 var routeColors = {
 	1: '#f3801f',
