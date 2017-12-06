@@ -2,41 +2,8 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<style>
-		/* Always set the map height explicitly to define the size of the div
-		 * element that contains the map. */
-		#map {
-			height: calc(100% - 35px);
-		}
-
-		/* When moving the mouse over the close button */
-		.closebtn:hover {
-			color: black;
-		}
-
-		/* Optional: Makes the sample page fill the window. */
-		html, body {
-			height: 100%;
-			margin: 0;
-			padding: 0;
-		}
-
-		[type="checkbox"] {
-			width: 75px;
-			height: 75px;
-		}
-
-		label {
-			padding-left: 0 !important;
-		}
-
-		.imageCheckBox {
-			height: 4em;
-		}
-		.scheduleTable {
-
-		}
-	</style>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link href="./css/styling.css" rel="stylesheet" type="text/css">
 	<link href="./css/materialize.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<title>BusyBus Live Map</title>
@@ -49,51 +16,53 @@
 	<li>
 		<form action="#">
 			<div class="center-align" style="margin-left: 0;">
-				<img class="imageCheckBox" id="1" src="./icons/1.png" alt="1">
-				<img class="imageCheckBox" id="2" src="./icons/2.png" alt="2">
-				<img class="imageCheckBox" id="20" src="./icons/20.png" alt="20">
-				<img class="imageCheckBox" id="21" src="./icons/21.png" alt="21">
-				<img class="imageCheckBox" id="22" src="./icons/22.png" alt="22">
-				<img class="imageCheckBox" id="23" src="./icons/23.png" alt="23">
-				<img class="imageCheckBox" id="24" src="./icons/24.png" alt="24">
-				<img class="imageCheckBox" id="25" src="./icons/25.png" alt="25">
-				<img class="imageCheckBox" id="26" src="./icons/26.png" alt="26">
-				<img class="imageCheckBox" id="27" src="./icons/27.png" alt="27">
-				<img class="imageCheckBox" id="28" src="./icons/28.png" alt="28">
-				<img class="imageCheckBox" id="29" src="./icons/29.png" alt="29">
-				<img class="imageCheckBox" id="32" src="./icons/32.png" alt="32">
-				<img class="imageCheckBox" id="33" src="./icons/33.png" alt="33">
-				<img class="imageCheckBox" id="34" src="./icons/34.png" alt="34">
-				<img class="imageCheckBox" id="39" src="./icons/39.png" alt="39">
-				<img class="imageCheckBox" id="42" src="./icons/42.png" alt="42">
-				<img class="imageCheckBox" id="43" src="./icons/43.png" alt="43">
-				<img class="imageCheckBox" id="44" src="./icons/44.png" alt="44">
-				<img class="imageCheckBox" id="45" src="./icons/45.png" alt="45">
-				<img class="imageCheckBox" id="60" src="./icons/60.png" alt="60">
-				<img class="imageCheckBox" id="61" src="./icons/61.png" alt="61">
-				<img class="imageCheckBox" id="62" src="./icons/62.png" alt="62">
-				<img class="imageCheckBox" id="66" src="./icons/66.png" alt="66">
-				<img class="imageCheckBox" id="68" src="./icons/68.png" alt="68">
-				<img class="imageCheckBox" id="74" src="./icons/74.png" alt="74">
-				<img class="imageCheckBox" id="90" src="./icons/90.png" alt="90">
-				<img class="imageCheckBox" id="94" src="./icons/94.png" alt="94">
-				<img class="imageCheckBox" id="95" src="./icons/95.png" alt="95">
-				<img class="imageCheckBox" id="96" src="./icons/96.png" alt="96">
-				<img class="imageCheckBox" id="97" src="./icons/97.png" alt="97">
-				<img class="imageCheckBox" id="98" src="./icons/98.png" alt="98">
-				<img class="imageCheckBox" id="124" src="./icons/124.png" alt="124">
-				<img class="imageCheckBox" id="165" src="./icons/165.png" alt="165">
-				<img class="imageCheckBox" id="172" src="./icons/172.png" alt="172">
-				<img class="imageCheckBox" id="173" src="./icons/173.png" alt="173">
+				<img class="imageCheckBox" id="1" src="./icons/1unchecked.png" alt="1">
+				<img class="imageCheckBox" id="2" src="./icons/2unchecked.png" alt="2">
+				<img class="imageCheckBox" id="20" src="./icons/20unchecked.png" alt="20">
+				<img class="imageCheckBox" id="21" src="./icons/21unchecked.png" alt="21">
+				<img class="imageCheckBox" id="22" src="./icons/22unchecked.png" alt="22">
+				<img class="imageCheckBox" id="23" src="./icons/23unchecked.png" alt="23">
+				<img class="imageCheckBox" id="24" src="./icons/24unchecked.png" alt="24">
+				<img class="imageCheckBox" id="25" src="./icons/25unchecked.png" alt="25">
+				<img class="imageCheckBox" id="26" src="./icons/26unchecked.png" alt="26">
+				<img class="imageCheckBox" id="27" src="./icons/27unchecked.png" alt="27">
+				<img class="imageCheckBox" id="28" src="./icons/28unchecked.png" alt="28">
+				<img class="imageCheckBox" id="29" src="./icons/29unchecked.png" alt="29">
+				<img class="imageCheckBox" id="32" src="./icons/32unchecked.png" alt="32">
+				<img class="imageCheckBox" id="33" src="./icons/33unchecked.png" alt="33">
+				<img class="imageCheckBox" id="34" src="./icons/34unchecked.png" alt="34">
+				<img class="imageCheckBox" id="39" src="./icons/39unchecked.png" alt="39">
+				<img class="imageCheckBox" id="42" src="./icons/42unchecked.png" alt="42">
+				<img class="imageCheckBox" id="43" src="./icons/43unchecked.png" alt="43">
+				<img class="imageCheckBox" id="44" src="./icons/44unchecked.png" alt="44">
+				<img class="imageCheckBox" id="45" src="./icons/45unchecked.png" alt="45">
+				<img class="imageCheckBox" id="60" src="./icons/60unchecked.png" alt="60">
+				<img class="imageCheckBox" id="61" src="./icons/61unchecked.png" alt="61">
+				<img class="imageCheckBox" id="62" src="./icons/62unchecked.png" alt="62">
+				<img class="imageCheckBox" id="66" src="./icons/66unchecked.png" alt="66">
+				<img class="imageCheckBox" id="68" src="./icons/68unchecked.png" alt="68">
+				<img class="imageCheckBox" id="74" src="./icons/74unchecked.png" alt="74">
+				<img class="imageCheckBox" id="90" src="./icons/90unchecked.png" alt="90">
+				<img class="imageCheckBox" id="94" src="./icons/94unchecked.png" alt="94">
+				<img class="imageCheckBox" id="95" src="./icons/95unchecked.png" alt="95">
+				<img class="imageCheckBox" id="96" src="./icons/96unchecked.png" alt="96">
+				<img class="imageCheckBox" id="97" src="./icons/97unchecked.png" alt="97">
+				<img class="imageCheckBox" id="98" src="./icons/98unchecked.png" alt="98">
+				<img class="imageCheckBox" id="124" src="./icons/124unchecked.png" alt="124">
+				<img class="imageCheckBox" id="165" src="./icons/165unchecked.png" alt="165">
+				<img class="imageCheckBox" id="172" src="./icons/172unchecked.png" alt="172">
+				<img class="imageCheckBox" id="173" src="./icons/173unchecked.png" alt="173">
 			</div>
 		</form>
 	</li>
 	<li><a class="waves-effect waves-light btn" id="applyButton" onclick="apply()">Apply</a></li>
 </ul>
-<a href="#" data-activates="slide-out" class="button-collapse" style="margin: 5px;"><i class="material-icons"
-                                                                                       style="margin: 5px;">menu</i></a>
+<a href="#" data-activates="slide-out" class="button-collapse" style="margin: 5px;"><i class="material-icons">menu</i></a>
+<a href="#" class="brand-logo center"><img id="logo" src="./icons/logo.png" alt="BusyBus"></a>
 <span id="LowAcc" class="left-align" style="font-size: 10px;"></span>
-<span id="Refresh" class="left-align" style="font-size: 1em;"></span>
+<div class="progress">
+	<div id="RefreshBar" class="determinate" style="width: 20%"></div>
+</div>
 <div id="map"></div>
 <table class="hiddendiv scheduleTable striped">
 	<tr>
@@ -104,145 +73,145 @@
 	</tr>
 </table>
 <script>
-	var map;
-	var clickHandler;
+    var map;
+    var clickHandler;
 
-	function initMap() {
-		getLocation(function showMap() {
-			var latlong = new google.maps.LatLng(latitude, longitude);
-			map = new google.maps.Map(document.getElementById('map'), {
-				zoom: 16,
-				center: latlong,
-				styles: [
-					{elementType: 'geometry', stylers: [{color: '#242f3e'}]},
-					{elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
-					{elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
-					{
-						featureType: 'administrative.locality',
-						elementType: 'labels.text.fill',
-						stylers: [{color: '#d59563'}]
-					},
-					{
-						featureType: 'poi',
-						elementType: 'labels.text.fill',
-						stylers: [{color: '#d59563'}]
-					},
-					{
-						featureType: 'poi.park',
-						elementType: 'geometry',
-						stylers: [{color: '#263c3f'}]
-					},
-					{
-						featureType: 'poi.park',
-						elementType: 'labels.text.fill',
-						stylers: [{color: '#6b9a76'}]
-					},
-					{
-						featureType: 'road',
-						elementType: 'geometry',
-						stylers: [{color: '#38414e'}]
-					},
-					{
-						featureType: 'road',
-						elementType: 'geometry.stroke',
-						stylers: [{color: '#212a37'}]
-					},
-					{
-						featureType: 'road',
-						elementType: 'labels.text.fill',
-						stylers: [{color: '#9ca5b3'}]
-					},
-					{
-						featureType: 'road.highway',
-						elementType: 'geometry',
-						stylers: [{color: '#746855'}]
-					},
-					{
-						featureType: 'road.highway',
-						elementType: 'geometry.stroke',
-						stylers: [{color: '#1f2835'}]
-					},
-					{
-						featureType: 'road.highway',
-						elementType: 'labels.text.fill',
-						stylers: [{color: '#f3d19c'}]
-					},
-					{
-						featureType: 'transit',
-						elementType: 'geometry',
-						stylers: [{color: '#2f3948'}]
-					},
-					{
-						featureType: 'transit.station',
-						elementType: 'labels.text.fill',
-						stylers: [{color: '#d59563'}]
-					},
-					{
-						featureType: 'water',
-						elementType: 'geometry',
-						stylers: [{color: '#17263c'}]
-					},
-					{
-						featureType: 'water',
-						elementType: 'labels.text.fill',
-						stylers: [{color: '#515c6d'}]
-					},
-					{
-						featureType: 'water',
-						elementType: 'labels.text.stroke',
-						stylers: [{color: '#17263c'}]
-					}
-				]
-			});
-			clickHandler = new ClickEventHandler(map, latlong);
-		});
-	}
+    function initMap() {
+        getLocation(function showMap() {
+            var latlong = new google.maps.LatLng(latitude, longitude);
+            map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 16,
+                center: latlong,
+                styles: [
+                    {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+                    {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+                    {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+                    {
+                        featureType: 'administrative.locality',
+                        elementType: 'labels.text.fill',
+                        stylers: [{color: '#d59563'}]
+                    },
+                    {
+                        featureType: 'poi',
+                        elementType: 'labels.text.fill',
+                        stylers: [{color: '#d59563'}]
+                    },
+                    {
+                        featureType: 'poi.park',
+                        elementType: 'geometry',
+                        stylers: [{color: '#263c3f'}]
+                    },
+                    {
+                        featureType: 'poi.park',
+                        elementType: 'labels.text.fill',
+                        stylers: [{color: '#6b9a76'}]
+                    },
+                    {
+                        featureType: 'road',
+                        elementType: 'geometry',
+                        stylers: [{color: '#38414e'}]
+                    },
+                    {
+                        featureType: 'road',
+                        elementType: 'geometry.stroke',
+                        stylers: [{color: '#212a37'}]
+                    },
+                    {
+                        featureType: 'road',
+                        elementType: 'labels.text.fill',
+                        stylers: [{color: '#9ca5b3'}]
+                    },
+                    {
+                        featureType: 'road.highway',
+                        elementType: 'geometry',
+                        stylers: [{color: '#746855'}]
+                    },
+                    {
+                        featureType: 'road.highway',
+                        elementType: 'geometry.stroke',
+                        stylers: [{color: '#1f2835'}]
+                    },
+                    {
+                        featureType: 'road.highway',
+                        elementType: 'labels.text.fill',
+                        stylers: [{color: '#f3d19c'}]
+                    },
+                    {
+                        featureType: 'transit',
+                        elementType: 'geometry',
+                        stylers: [{color: '#2f3948'}]
+                    },
+                    {
+                        featureType: 'transit.station',
+                        elementType: 'labels.text.fill',
+                        stylers: [{color: '#d59563'}]
+                    },
+                    {
+                        featureType: 'water',
+                        elementType: 'geometry',
+                        stylers: [{color: '#17263c'}]
+                    },
+                    {
+                        featureType: 'water',
+                        elementType: 'labels.text.fill',
+                        stylers: [{color: '#515c6d'}]
+                    },
+                    {
+                        featureType: 'water',
+                        elementType: 'labels.text.stroke',
+                        stylers: [{color: '#17263c'}]
+                    }
+                ]
+            });
+            clickHandler = new ClickEventHandler(map, latlong);
+        });
+    }
 
-	var ClickEventHandler = function (map, origin) {
-		this.origin = origin;
-		this.map = map;
-		this.directionsService = new google.maps.DirectionsService;
-		this.directionsDisplay = new google.maps.DirectionsRenderer;
-		this.directionsDisplay.setMap(map);
-		this.placesService = new google.maps.places.PlacesService(map);
-		this.infowindow = new google.maps.InfoWindow;
-		this.infowindowContent = document.getElementById('infowindow-content');
-		this.infowindow.setContent(this.infowindowContent);
+    var ClickEventHandler = function (map, origin) {
+        this.origin = origin;
+        this.map = map;
+        this.directionsService = new google.maps.DirectionsService;
+        this.directionsDisplay = new google.maps.DirectionsRenderer;
+        this.directionsDisplay.setMap(map);
+        this.placesService = new google.maps.places.PlacesService(map);
+        this.infowindow = new google.maps.InfoWindow;
+        this.infowindowContent = document.getElementById('infowindow-content');
+        this.infowindow.setContent(this.infowindowContent);
 
-		// Listen for clicks on the map.
-		this.map.addListener('click', this.handleClick.bind(this));
-	};
+        // Listen for clicks on the map.
+        this.map.addListener('click', this.handleClick.bind(this));
+    };
 
-	ClickEventHandler.prototype.handleClick = function (event) {
-		if (event.placeId) {
-			$(".removeMe").remove();
-			this.calculateAndDisplayRoute(event.placeId);
-			this.placesService.getDetails({placeId: event.placeId}, handleDetails);
+    ClickEventHandler.prototype.handleClick = function (event) {
+        if (event.placeId) {
+            $(".removeMe").remove();
+            this.calculateAndDisplayRoute(event.placeId);
+            this.placesService.getDetails({placeId: event.placeId}, handleDetails);
 
-			function handleDetails(place, status) {
-				if (status === google.maps.places.PlacesServiceStatus.OK
-					&& place.types.includes("bus_station")) {
-					getAndInsertDetails(place);
-				}
-			}
-		}
-	};
+            function handleDetails(place, status) {
+                if (status === google.maps.places.PlacesServiceStatus.OK
+                    && place.types.includes("bus_station")) {
+                    getAndInsertDetails(place);
+                }
+            }
+        }
+    };
 
-	ClickEventHandler.prototype.calculateAndDisplayRoute = function (placeId) {
-		var me = this;
-		this.directionsService.route({
-			origin: this.origin,
-			destination: {placeId: placeId},
-			preserveViewport: true,
-			travelMode: 'WALKING'
-		}, function (response, status) {
-			if (status === 'OK') {
-				me.directionsDisplay.setDirections(response);
-			} else {
-				window.alert('Directions request failed due to ' + status);
-			}
-		});
-	};
+    ClickEventHandler.prototype.calculateAndDisplayRoute = function (placeId) {
+        var me = this;
+        this.directionsService.route({
+            origin: this.origin,
+            destination: {placeId: placeId},
+            preserveViewport: true,
+            travelMode: 'WALKING'
+        }, function (response, status) {
+            if (status === 'OK') {
+                me.directionsDisplay.setDirections(response);
+            } else {
+                window.alert('Directions request failed due to ' + status);
+            }
+        });
+    };
 
 
 </script>
@@ -251,6 +220,6 @@
 <script src="js/CoreLogic.js"></script>
 <script src="js/UI.js"></script>
 <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAviW_2PbA3jfQv-2ONR35L0v6jlos9F3Q&libraries=places&callback=initMap"></script>
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAviW_2PbA3jfQv-2ONR35L0v6jlos9F3Q&libraries=places&callback=initMap"></script>
 </body>
 </html>

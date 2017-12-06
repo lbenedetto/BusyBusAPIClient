@@ -19,13 +19,27 @@ function getSelectedRoutes() {
 			out[i++] = this.id;
 		}
 	});
-	return out;
+	if (out.length == 0)
+		return getAllRoutes();
+	else
+		return out;
 }
 
-//TODO: In the interest of a better UX, they should all be off by default.
+function getAllRoutes()
+{
+    var out = [];
+    var i = 0;
+    $(".imageCheckBox").each(function (index) {
+        out[i++] = this.id;
+    });
+    return out;
+}
+
+//Finished: In the interest of a better UX, they should all be off by default.
 //So, if all check boxes are off, it should show all buses.
 //That way a user can just click on the one bus they actually care about, and it'll start tracking only that one
 //Having to click invert first is poor design.
+//TODO: make it more obvious to the user that it isn't an error that everything is shown when everything is unchecked.
 function invertImageCheckBox(box){
 	$("#applyButton").removeAttr("disabled");
 	if (box.src.includes("unchecked")) {

@@ -1,10 +1,11 @@
-var map, latitude, longitude, markers = [], currentTripId, currentRouteId, locationMarker, locationError = false,
+var map, latitude, longitude, markers = [], currentTripId, currentRouteId, locationMarker = null, locationError = false,
 	busPaths = [];
 
 //TODO: Uncomment this before deploying
+/*
 if (location.protocol !== 'https:') {
 	location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
-}
+}*/
 
 var routeColors = {
 	1: '#f3801f',
@@ -49,7 +50,7 @@ var routeColors = {
 var timeleft = 2;
 var downloadTimer = setInterval(function () {
 	timeleft--;
-	document.getElementById("Refresh").innerHTML = "Refresh in " + timeleft + " sec";
+    document.getElementById("RefreshBar").style.width = (timeleft + 1) + "0%";
 	if (timeleft <= 0) {
 		timeleft = 10;
 		getBuses();
@@ -164,10 +165,11 @@ function deleteMarkers() {
 
 function showLocationMarker() {
 	getLocation(null);
-	//if (locationMarker !== null) locationMarker.setMap(null);
 	//TODO: Clear old location marker
+	//if (locationMarker !== null) locationMarker.setMap(null);
 	var latLng = new google.maps.LatLng(latitude, longitude);
 	locationMarker = new google.maps.Marker({
+
 		position: latLng,
 		icon: {
 			url: "./icons/bluedot.png",
@@ -224,7 +226,7 @@ function getAndInsertDetails(place) {
 			"trips[]": getActiveTripIds()
 		},
 		function injectDetails(response) {
-			console.log(response);
+			$(".removeMe").remove();
 			var container = $(".transit-container");
 			var newTable = $(".scheduleTable").clone(true);
 			newTable.removeClass("hiddendiv");

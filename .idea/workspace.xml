@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16863713-8846-465b-98af-e5d9d806872a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/test.json" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styling.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/CoreLogic.js" afterPath="$PROJECT_DIR$/js/CoreLogic.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/UI.js" afterPath="$PROJECT_DIR$/js/UI.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,23 +66,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="104" column="8" lean-forward="false" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
+            <state relative-caret-position="-825">
+              <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
               <folding>
-                <element signature="e#4521#6516#0" expanded="false" />
+                <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CoreLogic.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="styling.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/styling.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/v1/locations/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="materialize.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/materialize.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110190">
+              <caret line="7346" column="0" lean-forward="false" selection-start-line="7346" selection-start-column="0" selection-end-line="7346" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoreLogic.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/CoreLogic.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="238" column="39" lean-forward="true" selection-start-line="238" selection-start-column="39" selection-end-line="238" selection-end-column="39" />
+            <state relative-caret-position="375">
+              <caret line="175" column="52" lean-forward="true" selection-start-line="175" selection-start-column="52" selection-end-line="175" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UI.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/UI.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="41" column="2" lean-forward="false" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -142,7 +185,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/documentation.php" />
         <option value="$PROJECT_DIR$/tripupdate.php" />
         <option value="$PROJECT_DIR$/alert.php" />
         <option value="$PROJECT_DIR$/vehicle.php" />
@@ -169,7 +211,6 @@
         <option value="$PROJECT_DIR$/api/v1/routes/SQL.php" />
         <option value="$PROJECT_DIR$/javascript.js" />
         <option value="$PROJECT_DIR$/api/v1/location/index.php" />
-        <option value="$PROJECT_DIR$/css/materialize.css" />
         <option value="$PROJECT_DIR$/sass/components/_waves.scss" />
         <option value="$PROJECT_DIR$/api/main.java" />
         <option value="$PROJECT_DIR$/api/IconGenerator.java" />
@@ -191,6 +232,8 @@
         <option value="$PROJECT_DIR$/api/v1/SQL.php" />
         <option value="$PROJECT_DIR$/api/v1/schedule/index.php" />
         <option value="$PROJECT_DIR$/api/test.json" />
+        <option value="$PROJECT_DIR$/css/materialize.css" />
+        <option value="$PROJECT_DIR$/css/styling.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/CoreLogic.js" />
       </list>
@@ -231,7 +274,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -247,18 +289,42 @@
             </path>
             <path>
               <item name="BusyBusAPIClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BusyBusAPIClient" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="v1" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="BusyBusAPIClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BusyBusAPIClient" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="v1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="locations" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="BusyBusAPIClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BusyBusAPIClient" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="BusyBusAPIClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BusyBusAPIClient" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="BusyBusAPIClient" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../EWU-Computer-Science/CSCD-378 - Web Development" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
@@ -333,7 +399,9 @@
       <workItem from="1512021065283" duration="8211000" />
       <workItem from="1512189103476" duration="68189000" />
       <workItem from="1512365333521" duration="1983000" />
-      <workItem from="1512423349652" duration="10773000" />
+      <workItem from="1512423349652" duration="17792000" />
+      <workItem from="1512528562035" duration="455000" />
+      <workItem from="1512530832510" duration="1338000" />
     </task>
     <task id="LOCAL-00001" summary="Made signifigant progress on extracting data">
       <created>1511302496370</created>
@@ -475,11 +543,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512433327053</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Fixed plurality">
+      <created>1512436452801</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1512436452801</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131757000" />
+    <option name="totallyTimeSpent" value="140569000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -501,8 +576,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.49573106" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.178762" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16275346" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18303095" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16275346" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -544,7 +619,8 @@
     <MESSAGE value="Added delay and schedule information to backend" />
     <MESSAGE value="Added schedule with delays to bus stop popup" />
     <MESSAGE value="Fixed backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed backend" />
+    <MESSAGE value="Fixed plurality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed plurality" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -553,16 +629,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/icons/direction90.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/icons/direction135.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/icons/direction180.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -601,7 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
           <caret line="1082" column="20" lean-forward="false" selection-start-line="1082" selection-start-column="20" selection-end-line="1082" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -761,15 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="1311" column="24" lean-forward="false" selection-start-line="1311" selection-start-column="24" selection-end-line="1311" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/UI.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="46" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -777,7 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -788,19 +843,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/v1/locations/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="56" lean-forward="true" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/data/urls.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -816,19 +862,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="652">
           <caret line="393" column="37" lean-forward="true" selection-start-line="393" selection-start-column="37" selection-end-line="393" selection-end-column="37" />
-          <folding>
-            <marker date="1512353730089" expanded="true" signature="197884:197891" ph="..." />
-            <marker date="1512353730089" expanded="true" signature="267549:267578" ph="..." />
-            <marker date="1512353730089" expanded="true" signature="267827:267837" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/materialize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="6497" column="1" lean-forward="false" selection-start-line="6497" selection-start-column="1" selection-end-line="6497" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -836,7 +869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="7800" column="4" lean-forward="false" selection-start-line="7800" selection-start-column="4" selection-end-line="7800" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -844,19 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="488">
           <caret line="91" column="16" lean-forward="true" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
-          <folding>
-            <marker date="1512431746486" expanded="true" signature="681:701" ph="SELECT * fro... shapes" />
-            <marker date="1512431746486" expanded="true" signature="866:920" ph="SELECT DISTI... trips" />
-            <marker date="1512431746486" expanded="true" signature="1159:1203" ph="SELECT * FRO... shapes" />
-            <marker date="1512431746486" expanded="true" signature="1410:1454" ph="SELECT DISTI... trips" />
-            <marker date="1512431746486" expanded="true" signature="1567:1631" ph="SELECT * FRO... user" />
-            <marker date="1512431746486" expanded="true" signature="1567:1634" ph="SELECT * FRO... shapes" />
-            <marker date="1512431746486" expanded="true" signature="1839:1892" ph="SELECT short... stop_names" />
-            <marker date="1512431746486" expanded="true" signature="2160:2258" ph="SELECT arriv... stops" />
-            <marker date="1512431746486" expanded="true" signature="2160:2259" ph="SELECT arriv... stops" />
-            <marker date="1512431746486" expanded="true" signature="2160:2262" ph="SELECT arriv... stops" />
-            <marker date="1512431746486" expanded="true" signature="2413:2456" ph="SELECT route... trips" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -864,41 +883,72 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/test.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/api/test.json" />
     <entry file="file://$PROJECT_DIR$/api/example.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30495">
           <caret line="2327" column="11" lean-forward="false" selection-start-line="2327" selection-start-column="11" selection-end-line="2327" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/materialize.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/materialize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110190">
+          <caret line="7346" column="0" lean-forward="false" selection-start-line="7346" selection-start-column="0" selection-end-line="7346" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/CoreLogic.js">
+    <entry file="file://$PROJECT_DIR$/api/v1/locations/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="238" column="39" lean-forward="true" selection-start-line="238" selection-start-column="39" selection-end-line="238" selection-end-column="39" />
+        <state relative-caret-position="135">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styling.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="104" column="8" lean-forward="false" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
+        <state relative-caret-position="-825">
+          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
           <folding>
-            <element signature="e#4521#6516#0" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/UI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="41" column="2" lean-forward="false" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/CoreLogic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="175" column="52" lean-forward="true" selection-start-line="175" selection-start-column="52" selection-end-line="175" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
