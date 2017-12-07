@@ -1,4 +1,5 @@
 <?php
+include "../cache.php";
 include "../SQL.php";
 include "../sharedMethods.php";
 require_once '../../vendor/autoload.php';
@@ -51,7 +52,7 @@ function getTripUpdates($feedMessage, $trips) {
 }
 
 function getFeedMessage() {
-	$data = file_get_contents("http://205.143.55.253:8250/TripUpdate/TripUpdates.pb");
+	$data = getLiveData("http://205.143.55.253:8250/TripUpdate/TripUpdates.pb", "TripUpdates.pb");
 	$feedMessage = new FeedMessage();
 	$feedMessage->parse($data);
 	return $feedMessage;
@@ -111,3 +112,4 @@ function getStopTimeEvent($stopTimeEvent) {
 	$stopTimeEventData["uncertainty"] = $stopTimeEvent->getUncertainty();
 	return $stopTimeEventData;
 }
+include("../cache_footer.php");
