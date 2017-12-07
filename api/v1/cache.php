@@ -7,7 +7,6 @@ $cache_expires = 10;
 
 // Checks whether the page has been cached or not
 function is_cached($file) {
-	echo "checking if cached\n";
 	global $cache_expires;
 	$cachefile_created = (file_exists($file)) ? @filemtime($file) : 0;
 	return ((time() - $cache_expires) < $cachefile_created);
@@ -15,13 +14,11 @@ function is_cached($file) {
 
 // Reads from a cached file
 function read_cache($file) {
-	echo "reading cache\n";
 	return file_get_contents($file);
 }
 
 // Writes to a cached file
 function write_cache($file, $out) {
-	echo "writing cache\n";
 	file_put_contents($file, $out);
 }
 

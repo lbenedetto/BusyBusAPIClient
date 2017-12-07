@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="16863713-8846-465b-98af-e5d9d806872a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/UI.js" afterPath="$PROJECT_DIR$/js/UI.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v1/cache.php" afterPath="$PROJECT_DIR$/api/v1/cache.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -94,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cache.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cache.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/v1/cache.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+            <state relative-caret-position="165">
+              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -124,11 +124,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UI.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UI.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/UI.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="143">
-              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+              <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -239,8 +239,8 @@
         <option value="$PROJECT_DIR$/api/v1/sharedMethods.php" />
         <option value="$PROJECT_DIR$/api/v1/schedule/index.php" />
         <option value="$PROJECT_DIR$/api/v1/locations/index.php" />
-        <option value="$PROJECT_DIR$/api/v1/cache.php" />
         <option value="$PROJECT_DIR$/js/UI.js" />
+        <option value="$PROJECT_DIR$/api/v1/cache.php" />
       </list>
     </option>
   </component>
@@ -593,7 +593,7 @@
       <workItem from="1512365333521" duration="1983000" />
       <workItem from="1512423349652" duration="17792000" />
       <workItem from="1512528562035" duration="455000" />
-      <workItem from="1512530832510" duration="13790000" />
+      <workItem from="1512530832510" duration="13863000" />
     </task>
     <task id="LOCAL-00001" summary="Made signifigant progress on extracting data">
       <created>1511302496370</created>
@@ -791,11 +791,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512623617939</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Re-added accidentally removed UI.js function">
+      <created>1512623917855</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1512623917855</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153021000" />
+    <option name="totallyTimeSpent" value="153094000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -841,7 +848,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Move getAllData into its own method" />
     <MESSAGE value="Moved api stuff into its own folder" />
     <MESSAGE value="Major strides forward, thanks Alex and Fletcher!" />
     <MESSAGE value="Converted data to SQL" />
@@ -866,7 +872,8 @@
     <MESSAGE value="Removed accidentally added CSS" />
     <MESSAGE value="Fixed location marker" />
     <MESSAGE value="Added caching to reduce load on STA's site" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added caching to reduce load on STA's site" />
+    <MESSAGE value="Re-added accidentally removed UI.js function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Re-added accidentally removed UI.js function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1219,18 +1226,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/v1/cache.php">
+    <entry file="file://$PROJECT_DIR$/js/UI.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        <state relative-caret-position="143">
+          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/UI.js">
+    <entry file="file://$PROJECT_DIR$/api/v1/cache.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state relative-caret-position="165">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding />
         </state>
       </provider>
