@@ -1,10 +1,10 @@
 var map, latitude, longitude, markers = [], currentTripId, currentRouteId, locationMarker = null, locationError = false,
 	busPaths = [];
-
+/*
 if (location.protocol !== 'https:') {
 	location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
 }
-
+*/
 var routeColors = {
 	1: '#f3801f',
 	2: '#e89612',
@@ -48,7 +48,7 @@ var routeColors = {
 var timeleft = 2;
 var downloadTimer = setInterval(function () {
 	timeleft--;
-    document.getElementById("RefreshBar").style.width = (timeleft + 1) + "0%";
+	document.getElementById("RefreshBar").style.width = (timeleft + 1) + "0%";
 	if (timeleft <= 0) {
 		timeleft = 10;
 		getBuses();
@@ -162,18 +162,18 @@ function deleteMarkers() {
 }
 
 function showLocationMarker() {
-	getLocation(null);
-	//TODO: Clear old location marker
-	//if (locationMarker !== null) locationMarker.setMap(null);
-	var latLng = new google.maps.LatLng(latitude, longitude);
-	locationMarker = new google.maps.Marker({
-
-		position: latLng,
-		icon: {
-			url: "./icons/bluedot.png",
-			scaledSize: new google.maps.Size(20, 20)
-		},
-		map: map
+	getLocation(function show() {
+		//TODO: Clear old location marker
+		//if (locationMarker !== null) locationMarker.setMap(null);
+		var latLng = new google.maps.LatLng(latitude, longitude);
+		locationMarker = new google.maps.Marker({
+			position: latLng,
+			icon: {
+				url: "./icons/bluedot.png",
+				scaledSize: new google.maps.Size(20, 20)
+			},
+			map: map
+		});
 	});
 }
 

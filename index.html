@@ -198,19 +198,19 @@
     };
 
     ClickEventHandler.prototype.calculateAndDisplayRoute = function (placeId) {
-        var me = this;
-        this.directionsService.route({
-            origin: this.origin,
-            destination: {placeId: placeId},
-            preserveViewport: true,
-            travelMode: 'WALKING'
-        }, function (response, status) {
-            if (status === 'OK') {
-                me.directionsDisplay.setDirections(response);
-            } else {
-                window.alert('Directions request failed due to ' + status);
-            }
-        });
+	    var me = this;
+	    this.directionsService.route({
+		    origin: this.origin,
+		    destination: {placeId: placeId},
+		    travelMode: 'WALKING'
+	    }, function (response, status) {
+		    if (status === 'OK') {
+			    me.directionsDisplay.setOptions({ preserveViewport: true });
+			    me.directionsDisplay.setDirections(response);
+		    } else {
+			    window.alert('Directions request failed due to ' + status);
+		    }
+	    });
     };
 
 

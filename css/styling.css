@@ -125,3 +125,30 @@ label {
         font-size: 1em !important;
     }
 }
+
+.busNum {
+    text-align: center;
+	display: inline-block;
+}
+h5{
+	text-align: center;
+	display: inline-block;
+}
+.checked{
+	border-radius: 1em;
+	width: 5em;
+	height: 4em;
+	display: inline-block;
+	margin: auto;
+	overflow:auto;
+}
+
+.unchecked {
+	border-radius: 1em;
+	background: white !important;
+	width: 5em;
+	height: 4em;
+	display: inline-block;
+	margin: auto;
+	overflow: auto;
+}

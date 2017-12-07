@@ -5,9 +5,10 @@ ini_set('display_errors', 'On');
 //$host = "localhost";
 //$host = "127.0.0.1";
 $host = "localhost";
-$db = "u800402696_busyb";
-$user = "u800402696_group";
-$pass = file_get_contents(__DIR__ . '/pw.txt');
+$db = "changeMe";
+$user = "changeMe";
+//$pass = file_get_contents(__DIR__ . '/pw.txt');
+$pass = "changeMe";
 $charset = "utf8mb4";
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
