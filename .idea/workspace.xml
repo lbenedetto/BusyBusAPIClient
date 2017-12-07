@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16863713-8846-465b-98af-e5d9d806872a" name="Default" comment="Time goes other direction">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/pw" />
+    <list default="true" id="16863713-8846-465b-98af-e5d9d806872a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v1/SQL.php" afterPath="$PROJECT_DIR$/api/v1/SQL.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/CoreLogic.js" afterPath="$PROJECT_DIR$/js/CoreLogic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/UI.js" afterPath="$PROJECT_DIR$/js/UI.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -69,8 +66,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="43" column="47" lean-forward="false" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+            <state relative-caret-position="540">
+              <caret line="63" column="63" lean-forward="true" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="63" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#form#0;n#li#1;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -93,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CoreLogic.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CoreLogic.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/CoreLogic.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+            <state relative-caret-position="315">
+              <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -107,7 +104,7 @@
         <entry file="file://$PROJECT_DIR$/api/v1/SQL.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="795">
-              <caret line="53" column="35" lean-forward="true" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
+              <caret line="53" column="35" lean-forward="false" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
               <folding>
                 <marker date="1512617929659" expanded="true" signature="665:685" ph="SELECT * FRO... shapes" />
                 <marker date="1512617929659" expanded="true" signature="850:904" ph="SELECT DISTI... trips" />
@@ -122,11 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UI.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UI.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/UI.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            <state relative-caret-position="270">
+              <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -236,8 +233,8 @@
         <option value="$PROJECT_DIR$/css/materialize.css" />
         <option value="$PROJECT_DIR$/css/styling.css" />
         <option value="$PROJECT_DIR$/js/UI.js" />
-        <option value="$PROJECT_DIR$/js/CoreLogic.js" />
         <option value="$PROJECT_DIR$/api/v1/SQL.php" />
+        <option value="$PROJECT_DIR$/js/CoreLogic.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -594,7 +591,7 @@
       <workItem from="1512365333521" duration="1983000" />
       <workItem from="1512423349652" duration="17792000" />
       <workItem from="1512528562035" duration="455000" />
-      <workItem from="1512530832510" duration="7861000" />
+      <workItem from="1512530832510" duration="8415000" />
     </task>
     <task id="LOCAL-00001" summary="Made signifigant progress on extracting data">
       <created>1511302496370</created>
@@ -757,11 +754,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512587573259</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Time goes other direction">
+      <created>1512617975469</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1512617975469</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147092000" />
+    <option name="totallyTimeSpent" value="147646000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -829,7 +833,8 @@
     <MESSAGE value="Fixed plurality" />
     <MESSAGE value="Version of project submitted" />
     <MESSAGE value="Version of project submitted&#10;+HTTPS redirect" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version of project submitted&#10;+HTTPS redirect" />
+    <MESSAGE value="Time goes other direction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Time goes other direction" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1132,7 +1137,7 @@
     <entry file="file://$PROJECT_DIR$/api/v1/SQL.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
-          <caret line="53" column="35" lean-forward="true" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
+          <caret line="53" column="35" lean-forward="false" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
           <folding>
             <marker date="1512617929659" expanded="true" signature="665:685" ph="SELECT * FRO... shapes" />
             <marker date="1512617929659" expanded="true" signature="850:904" ph="SELECT DISTI... trips" />
@@ -1146,18 +1151,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/CoreLogic.js">
+    <entry file="file://$PROJECT_DIR$/js/UI.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        <state relative-caret-position="270">
+          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="43" column="47" lean-forward="false" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+        <state relative-caret-position="540">
+          <caret line="63" column="63" lean-forward="true" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="63" />
           <folding>
             <element signature="n#style#0;n#div#0;n#form#0;n#li#1;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1167,10 +1172,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/UI.js">
+    <entry file="file://$PROJECT_DIR$/js/CoreLogic.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state relative-caret-position="315">
+          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
         </state>
       </provider>

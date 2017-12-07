@@ -47,9 +47,9 @@ var routeColors = {
 
 var timeleft = 8;
 var downloadTimer = setInterval(function () {
+	document.getElementById("RefreshBar").style.width = (timeleft) + "0%";
 	timeleft++;
-	document.getElementById("RefreshBar").style.width = (timeleft + 1) + "0%";
-	if (timeleft >= 10) {
+	if (timeleft >= 11) {
 		timeleft = 0;
 		getBuses();
 		setInterval(downloadTimer);
