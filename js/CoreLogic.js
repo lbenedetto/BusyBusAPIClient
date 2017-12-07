@@ -164,8 +164,7 @@ function deleteMarkers() {
 
 function showLocationMarker() {
 	getLocation(function show() {
-		//TODO: Clear old location marker
-		//if (locationMarker !== null) locationMarker.setMap(null);
+		if (!(locationMarker == null)) locationMarker.setMap(null);
 		var latLng = new google.maps.LatLng(latitude, longitude);
 		locationMarker = new google.maps.Marker({
 			position: latLng,
