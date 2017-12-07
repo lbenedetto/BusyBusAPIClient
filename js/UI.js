@@ -7,6 +7,10 @@ function invertSelection() {
 	})
 }
 
+$(".imageCheckBox").click(function toggle() {
+	invertImageCheckBox(this);
+});
+
 function getSelectedRoutes() {
 	var out = [];
 	var i = 0;
@@ -21,17 +25,16 @@ function getSelectedRoutes() {
 		return out;
 }
 
-function getAllRoutes()
-{
-    var out = [];
-    var i = 0;
-    $(".imageCheckBox").each(function (index) {
-        out[i++] = this.id;
-    });
-    return out;
+function getAllRoutes() {
+	var out = [];
+	var i = 0;
+	$(".imageCheckBox").each(function (index) {
+		out[i++] = this.id;
+	});
+	return out;
 }
 
-function invertImageCheckBox(box){
+function invertImageCheckBox(box) {
 	$("#applyButton").removeAttr("disabled");
 	if (box.src.includes("unchecked")) {
 		box.src = box.src.replace("unchecked", "");
@@ -40,12 +43,12 @@ function invertImageCheckBox(box){
 	}
 }
 
-function apply(){
+function apply() {
 	$("#applyButton").attr("disabled", "disabled");
 	getBuses();
 }
 
-if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-    // some code that changes the side nav's css to make everything bigger
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+	// some code that changes the side nav's css to make everything bigger
 	//There's literally a CSS thing for doing this
 }
