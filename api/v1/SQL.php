@@ -7,8 +7,7 @@ ini_set('display_errors', 'On');
 $host = "localhost";
 $db = "changeMe";
 $user = "changeMe";
-//$pass = file_get_contents(__DIR__ . '/pw.txt');
-$pass = "changeMe";
+$pass = file_get_contents(__DIR__ . '/pw.txt');
 $charset = "utf8mb4";
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";

@@ -1,10 +1,10 @@
 var map, latitude, longitude, markers = [], currentTripId, currentRouteId, locationMarker = null, locationError = false,
 	busPaths = [];
-/*
+
 if (location.protocol !== 'https:') {
 	location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
 }
-*/
+
 var routeColors = {
 	1: '#f3801f',
 	2: '#e89612',
@@ -45,16 +45,17 @@ var routeColors = {
 };
 
 
-var timeleft = 2;
+var timeleft = 8;
 var downloadTimer = setInterval(function () {
-	timeleft--;
+	timeleft++;
 	document.getElementById("RefreshBar").style.width = (timeleft + 1) + "0%";
-	if (timeleft <= 0) {
-		timeleft = 10;
+	if (timeleft >= 10) {
+		timeleft = 0;
 		getBuses();
 		setInterval(downloadTimer);
 	}
 }, 1000);
+
 setInterval(showLocationMarker, 1500);
 
 function getBuses() {
