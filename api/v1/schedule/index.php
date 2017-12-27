@@ -112,4 +112,3 @@ function getStopTimeEvent($stopTimeEvent) {
 	$stopTimeEventData["uncertainty"] = $stopTimeEvent->getUncertainty();
 	return $stopTimeEventData;
 }
-include("../cache_footer.php");
